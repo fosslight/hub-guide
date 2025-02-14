@@ -25,9 +25,9 @@
 - [Self-check Tutorial](tutorial/2_self_check.md) : Self-check로 Open Source 의무 사항 및 보안취약점 간단히 확인하기
 
 ### FOSSLight Hub 고급 기능
-- [개발 환경 세팅](features/1_developer.md)
-- [REST API](features/2_rest_api.md)
-- [Maintenance](features/3_maintenance.md)
+- [개발 환경 세팅](advanced/1_developer.md)
+- [REST API](advanced/2_rest_api.md)
+- [Maintenance](advanced/3_maintenance.md)
 
 ### CONTRIBUTION
 - [Report an issue](contribution/1_contribution.md)
