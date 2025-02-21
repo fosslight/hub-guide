@@ -1,6 +1,7 @@
-# REST API
+# REST API v1
 ```note
-FOSSLight Hub의 기능을 REST API로 호출할 수 있습니다.
+FOSSLight Hub의 기능을 REST API로 호출할 수 있습니다.  
+REST API V1은 3월 말까지 지원됩니다. 4월부터는 REST API V2를 이용해 주시기 바랍니다.
 ```
 
 ## 시작하기
