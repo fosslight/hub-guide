@@ -15,6 +15,25 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
     </p>
 </div>
 
+<h2 class="specific-title" id="header">0. Header</h2>
+
+| Key            | Required | Type   | Value                     |
+|----------------|----------|--------|---------------------------|
+| Authorization  | O        | String | 발급받은 토큰 정보       |
+
+
+##### Swagger UI 사용 시 Token 입력 방법
+<div style="border: 1px solid #d3d3d3; border-radius: 5px; padding: 10px; margin: 20px 0; font-size: x-small;">
+    ℹ️ Swagger UI 사용 시 인증을 편리하게 하기 위해 제공하는 기능입니다. Curl이나 별도의 API 테스트를 진행할 경우, API마다 token 정보를 header에 포함해야 합니다.
+</div>
+<div style="margin-left: 40px; font-size: small;">
+    <span>• Authorize 버튼을 클릭합니다.</span><br>
+    <img src="images/rest_api_authorize.png" alt="Authorize 버튼" style="max-width: 60%; height: auto; margin: 5px 0; border: 1px solid #d3d3d3; border-radius: 5px;"><br>
+    <span>• 팝업에서 Value에 token 정보를 입력한 후, Authorize 버튼을 클릭합니다.</span><br>
+    <img src="images/rest_api_authorize_detail.png" alt="Token 입력" style="max-width: 60%; height: auto; margin: 5px 0; border: 1px solid #d3d3d3; border-radius: 5px;">
+</div>
+
+
 <h2 class="specific-title" id="oss-license-info">1. OSS & License 정보 조회</h2>
 
 <table>
