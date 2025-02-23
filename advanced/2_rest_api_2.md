@@ -81,13 +81,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             <td>
                  <span style="color: red;">(Admin only)</span> Open Source 를 등록합니다.<br><br>
                 <ul class="description-list">
-                    <li><strong class="highlight-black">downloadLocation</strong>: 조회할 download location 값</li>
-                    <li><strong class="highlight-black">downloadLocationExact</strong>: true로 설정하면 정확히 일치하는 오픈소스만 조회 (default = Y)</li>
-                    <li><strong class="highlight-black">ossName</strong>: 조회할 오픈소스 이름</li>
-                    <li><strong class="highlight-black">ossNameExact</strong>: true로 설정하면 정확히 일치하는 오픈소스만 조회 (default = Y)</li>
-                    <li><strong class="highlight-black">ossVersion</strong>: 조회할 오픈소스 버전</li>
-                    <li><strong class="highlight-black">couterPerPage</strong>: 한 번에 조회할 아이템의 개수 (default = 10000)</li>
-                    <li><strong class="highlight-black">page</strong>: 조회할 페이지 번호 (default = 1)</li>
+                    <li>ossMaster포맷에 맞춰 데이터 입력</li>
                 </ul>
             </td>
         </tr>
