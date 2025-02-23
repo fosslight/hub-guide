@@ -378,17 +378,6 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>POST /api/v2/projects/{id}/watchers</span></td>
-            <td><span class="highlight">JSON</span></td>
-            <td>
-                Project에 watcher를 추가함<br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> emailList</strong>: 추가할 watcher의 이메일 정보</li>
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossLoadUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/oss-load</span></a></td>
             <td><span class="highlight">-</span></td>
             <td>
@@ -430,6 +419,17 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>POST /api/v2/projects/{id}/watchers</span></td>
+            <td><span class="highlight">JSON</span></td>
+            <td>
+                Project에 watcher를 추가함<br><br>
+                <ul class="description-list">
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> emailList</strong>: 추가할 watcher의 이메일 정보</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -445,7 +445,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityMaxDataUsingGET_1"><span class="highlight">GET /api/v2/max-vulnerabilities</span></a></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityMaxDataUsingGET_1"><span class="highlight">GET /api/v2/max-vulnerabilities</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
                 OSS Name, Version별 max score와 CVE ID를 확인할 링크 조회<br><br>
@@ -456,7 +456,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityDataUsingGET_4"><span class="highlight">GET /api/v2/vulnerabilities</span></a></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityDataUsingGET_4"><span class="highlight">GET /api/v2/vulnerabilities</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
                 CVE ID별 또는 OSS Name, Version별 CVE ID, CVSS Score, CVE ID Link, OSS 정보(OSS name, OSS version, Nickname)를 조회합니다.<br><br>
@@ -481,7 +481,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/createSelfCheckUsingPOST"><span class="highlight">POST /api/v2/selfchecks</span></a></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/createSelfCheckUsingPOST"><span class="highlight">POST /api/v2/selfchecks</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
                 Self-Check Project를 생성하고, 생성된 Self-Check ID를 return 받음<br><br>
@@ -492,7 +492,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/getSelfcheckUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}</span></a></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/getSelfcheckUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
                 Self-Check project 조회<br><br>
@@ -502,7 +502,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>GET /api/v2/selfchecks/{id}/export</span></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/selfCheckBomDownloadUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}/bom/file</span></a></td>
             <td><span class="highlight">FILE</span></td>
             <td>
                 Self-Check에서 Export한 결과 파일을 다운로드<br><br>
@@ -512,17 +512,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/selfCheckBomDownloadUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}/bom/file</span></a></td>
-            <td><span class="highlight">FILE</span></td>
-            <td>
-                Self-Check에서 Export한 결과 파일을 다운로드<br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 조회할 self check project ID</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/addPrjEditorUsingPOST_2"><span class="highlight">POST /api/v2/selfchecks/{id}/editors</span></a></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/addPrjEditorUsingPOST_2"><span class="highlight">POST /api/v2/selfchecks/{id}/editors</span></a></td>
             <td><span class="highlight">-</span></td>
             <td>
                 Self-Check에 Editor를 추가<br><br>
@@ -533,7 +523,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/ossReportSelfCheckUsingPOST_1"><span class="highlight">POST /api/v2/selfchecks/{id}/report</span></a></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/ossReportSelfCheckUsingPOST_1"><span class="highlight">POST /api/v2/selfchecks/{id}/report</span></a></td>
             <td><span class="highlight">-</span></td>
             <td>
                 Self-Check에 오픈소스 분석된 리포트 파일을 업로드함<br><br>
@@ -556,6 +546,16 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>GET /api/v2/selfchecks/{id}/export</span></td>
+            <td><span class="highlight">FILE</span></td>
+            <td>
+                Self-Check에서 Export한 결과 파일을 다운로드<br><br>
+                <ul class="description-list">
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 조회할 self check project ID</li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -570,7 +570,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/6.%20Code%20v2/getVulnerabilityDataUsingGET_3"><span class="highlight">GET /api/v2/codes</span></a></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/6.%20Code%20v2/getVulnerabilityDataUsingGET_3"><span class="highlight">GET /api/v2/codes</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
                 Project, 3rd Party 조회, Project 생성 시 사용할 Parameter의 값 List를 조회합니다.<br><br>
@@ -604,7 +604,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/7.%20Binary/getBinaryInfoUsingGET_1"><span class="highlight">GET /api/v2/binaries</span></a></td>
+            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/7.%20Binary/getBinaryInfoUsingGET_1"><span class="highlight">GET /api/v2/binaries</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
                 Binary DB에서 하기 정보를 기준으로 조회합니다.<br><br>
@@ -635,7 +635,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/8.%20Compliance%20Status/getPartnerStatusUsingPOST_1"><span class="highlight">POST /api/v2/compliance/3rdparty-status</span></a></td>
+            <td><span class="highlight"><span style="color: red;">(enterprise only)</span>POST /api/v2/compliance/3rdparty-status</span></td>
             <td><span class="highlight">JSON</span></td>
             <td>
                 Compliance Status > 3rd Party Status 검색 기능으로 3rd Party 생성 날짜와 Division으로 조회합니다.<br><br>
@@ -647,7 +647,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/8.%20Compliance%20Status/getProductStatusUsingPOST_1"><span class="highlight">POST /api/v2/compliance/product-status</span></a></td>
+            <td><span class="highlight"><span style="color: red;">(enterprise only)</span>POST /api/v2/compliance/product-status</span></td>
             <td><span class="highlight">JSON</span></td>
             <td>
                 Compliance Status > Product Status 검색 기능으로 Project 생성 날짜, Model release date와 Division으로 조회합니다.<br><br>
