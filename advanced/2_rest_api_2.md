@@ -163,34 +163,34 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>GET /api/v2/partners/{id}/file</span></td>
-            <td><span class="highlight">FILE</span></td>
+            <td><span class="highlight gray-text">(Deprecated) GET /api/v2/partners/{id}/file</span></td>
+            <td><span class="highlight gray-text">FILE</span></td>
             <td>
-                3rd party BOM export - 파일 형태로 다운로드<br><br>
+                <span class="gray-text">3rd party BOM export - 파일 형태로 다운로드</span><br><br>
                 <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> format</strong>: 추출할 파일 포맷</li>
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 조회할 대상인 3rd party ID</li>
+                    <li><strong class="highlight-black gray-text">(required) format</strong>: 추출할 파일 포맷</li>
+                    <li><strong class="highlight-black gray-text">(required) id</strong>: 조회할 대상인 3rd party ID</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>GET ​/api​/v2​/partners​/{id}​/json-data</span></td>
-            <td><span class="highlight">JSON</span></td>
+            <td><span class="highlight gray-text">(Deprecated) GET ​/api​/v2​/partners​/{id}​/json-data</span></td>
+            <td><span class="highlight gray-text">JSON</span></td>
             <td>
-                3rd party BOM export - JSON 형태로 받음<br><br>
+                <span class="gray-text">3rd party BOM export - JSON 형태로 받음</span><br><br>
                 <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 3rd party ID</li>
+                    <li><strong class="highlight-black gray-text">(required) id</strong>: 대상 3rd party ID</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>POST /api/v2/partners/{id}/watchers</span></td>
-            <td><span class="highlight">JSON</span></td>
+            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/partners/{id}/watchers</span></td>
+            <td><span class="highlight gray-text">JSON</span></td>
             <td>
-                3rd party에 watcher를 추가함<br><br>
+                <span class="gray-text">3rd party에 watcher를 추가함</span><br><br>
                 <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> emailList</strong>: 추가할 watcher의 이메일 정보</li>
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 3rd party ID</li>
+                    <li><strong class="highlight-black gray-text">(required) emailList</strong>: 추가할 watcher의 이메일 정보</li>|
+                    <li><strong class="highlight-black gray-text">(required) id</strong>: 대상 3rd party ID</li>
                 </ul>
             </td>
         </tr>
@@ -414,13 +414,13 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>POST /api/v2/projects/{id}/watchers</span></td>
-            <td><span class="highlight">JSON</span></td>
+            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/projects/{id}/watchers</span></td>
+            <td><span class="highlight gray-text">JSON</span></td>
             <td>
-                Project에 watcher를 추가함<br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> emailList</strong>: 추가할 watcher의 이메일 정보</li>
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
+                <span class="gray-text">Project에 watcher를 추가함</span><br><br>
+                <ul class="description-list gray-text">
+                    <li><strong class="highlight-black gray-text">(required) emailList</strong>: 추가할 watcher의 이메일 정보</li>
+                    <li><strong class="highlight-black gray-text">(required) id</strong>: 대상 project ID</li>
                 </ul>
             </td>
         </tr>
@@ -530,23 +530,23 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
             </td>
         </tr>
         <tr>
-            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>POST /api/v2/selfchecks/{id}/watchers</span></td>
-            <td><span class="highlight">-</span></td>
+            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/selfchecks/{id}/watchers</span></td>
+            <td><span class="highlight gray-text">-</span></td>
             <td>
-                Self-Check에 Watcher를 추가<br><br>
+                <span class="gray-text">Self-Check에 Watcher를 추가</span><br><br>
                 <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> emailList</strong>: 추가할 watcher의 이메일 정보</li>
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
+                    <li><strong class="highlight-black gray-text">(required) emailList</strong>: 추가할 watcher의 이메일 정보</li>
+                    <li><strong class="highlight-black gray-text">(required) id</strong>: 대상 project ID</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><span class="highlight"><span style="color: red;">(Deprecated)</span>GET /api/v2/selfchecks/{id}/export</span></td>
-            <td><span class="highlight">FILE</span></td>
+            <td><span class="highlight gray-text">(Deprecated) GET /api/v2/selfchecks/{id}/export</span></td>
+            <td><span class="highlight gray-text">FILE</span></td>
             <td>
-                Self-Check에서 Export한 결과 파일을 다운로드<br><br>
+                <span class="gray-text">Self-Check에서 Export한 결과 파일을 다운로드</span><br><br>
                 <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 조회할 self check project ID</li>
+                    <li><strong class="highlight-black gray-text">(required) id</strong>: 조회할 self check project ID</li>
                 </ul>
             </td>
         </tr>
