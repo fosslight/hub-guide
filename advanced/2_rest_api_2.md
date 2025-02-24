@@ -241,6 +241,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
                     <li><strong class="highlight-black">noticeType</strong>: 고지문 타입 선택 (/api/v2/codes 값으로 입력)</li>
                     <li><strong class="highlight-black">noticeTypeEtc</strong>: Platform-generate인 경우 타입 선택 (/api/v2/codes 값으로 입력)</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> osType</strong>: OS 타입 선택 (/api/v2/codes 값으로 입력)</li>
+                    <li><strong class="highlight-black">osTypeEtc</strong>: 추가적인 OS 타입 정보 </li>
                     <li><strong class="highlight-black">priority</strong>: 프로젝트의 긴급 여부에 따라 우선순위 선택 (/api/v2/codes 값으로 입력)</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> prjName</strong>: 프로젝트 이름</li>
                     <li><strong class="highlight-black">prjVersion</strong>: 프로젝트 버전</li>
@@ -288,7 +289,7 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> format</strong>: 추출할 파일 포맷</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> saveFlag</strong>: API 실행 시점의 정보로, BOM을 최신화 할지 여부 선택 (default = Y)</li>
+                    <li><strong class="highlight-black"> saveFlag</strong>: API 실행 시점의 정보로, BOM을 최신화 할지 여부 선택 (default = Y)</li>
                 </ul>
             </td>
         </tr>
