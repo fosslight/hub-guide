@@ -162,38 +162,6 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
                 </ul>
             </td>
         </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) GET /api/v2/partners/{id}/file</span></td>
-            <td><span class="highlight gray-text">FILE</span></td>
-            <td>
-                <span class="gray-text">3rd party BOM export - 파일 형태로 다운로드</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) format</strong>: 추출할 파일 포맷</li>
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 조회할 대상인 3rd party ID</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) GET ​/api​/v2​/partners​/{id}​/json-data</span></td>
-            <td><span class="highlight gray-text">JSON</span></td>
-            <td>
-                <span class="gray-text">3rd party BOM export - JSON 형태로 받음</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 대상 3rd party ID</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/partners/{id}/watchers</span></td>
-            <td><span class="highlight gray-text">JSON</span></td>
-            <td>
-                <span class="gray-text">3rd party에 watcher를 추가함</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) emailList</strong>: 추가할 watcher의 이메일 정보</li>|
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 대상 3rd party ID</li>
-                </ul>
-            </td>
-        </tr>
     </tbody>
 </table>
 
@@ -414,17 +382,6 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
                 </ul>
             </td>
         </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/projects/{id}/watchers</span></td>
-            <td><span class="highlight gray-text">JSON</span></td>
-            <td>
-                <span class="gray-text">Project에 watcher를 추가함</span><br><br>
-                <ul class="description-list gray-text">
-                    <li><strong class="highlight-black gray-text">(required) emailList</strong>: 추가할 watcher의 이메일 정보</li>
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 대상 project ID</li>
-                </ul>
-            </td>
-        </tr>
     </tbody>
 </table>
 
@@ -527,27 +484,6 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 self check project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: 파일 업로드 시, 기존 입력된 정보들을 Reset할지 여부. N - 기존 OSS Table에 입력된 사항을 유지한 채 append (default = Y)</li>
                     <li><strong class="highlight-black">sheetNames</strong>: 업로드할 리포트 파일에서 특정 sheet name을 업데이트 하고자 하는 경우 입력. 입력하지 않는 경우 기본으로 DEP, SRC, BIN prefix에 맞춰서 정보를 불러옴. ,로 구분하여 여러 Sheet를 입력 가능</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/selfchecks/{id}/watchers</span></td>
-            <td><span class="highlight gray-text">-</span></td>
-            <td>
-                <span class="gray-text">Self-Check에 Watcher를 추가</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) emailList</strong>: 추가할 watcher의 이메일 정보</li>
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 대상 project ID</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) GET /api/v2/selfchecks/{id}/export</span></td>
-            <td><span class="highlight gray-text">FILE</span></td>
-            <td>
-                <span class="gray-text">Self-Check에서 Export한 결과 파일을 다운로드</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 조회할 self check project ID</li>
                 </ul>
             </td>
         </tr>
