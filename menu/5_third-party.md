@@ -21,7 +21,7 @@ published: true
 {: .specific-title}
 ![3rd_party_list](images/5_third_party_list.PNG)
 1. 왼쪽 메뉴에서 3rd Party를 클릭합니다.
-2. 3rd Party List 왼쪽 상단의 **Add** 버튼을 클릭합니다.
+2. 3rd Party 왼쪽 상단의 **Add** 버튼을 클릭합니다.
 3. 아래와 같이 New_3rdParty 탭에서 3rd Party 정보를 입력하고 준비한 **3rd Party OSS Checklist** 파일을 업로드 합니다.
     ![3rd_party_new](images/5_third_party_new.PNG)
 
@@ -64,7 +64,7 @@ published: true
 
 ## (Admin Only) 3rd Party Review
 {: .left-bar-title }
-1. 3rd Party List에서 Status : Request인 3rd Party를 더블 클릭합니다. 
+1. 3rd Party에서 Status가 Request인 3rd Party의 Identification을 클릭합니다. 
 2. 우측 상단의 **Review Start**를 클릭합니다. 
     - Status: Review로 변경됩니다. 
 3. OSS Table의 빨간색 Warning message에 대하여 검토합니다. 
