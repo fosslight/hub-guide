@@ -94,7 +94,7 @@ OSS별로 고지와 소스 코드 공개 의무사항을 알 수 있습니다.
 {: .specific-title}
 OSS List에서 OSS Name을 클릭합니다.    
 Admin 인 경우에만 Editable하게 표시되며 Save, Sync, Copy, Delete 버튼이 표시됩니다.    
-![OSS_DETAIL](images/2_oss_detail.PNG)  
+![OSS_DETAIL](images/2_oss_detail.png)  
 
 #### **OSS 수정**
 - 정보를 수정한 후 우측 상단의 **Save** 버튼을 클릭합니다.
