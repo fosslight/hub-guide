@@ -9,13 +9,16 @@ OSS List의 OSS Name Column 내 cell을 클릭하면 상세정보를 확인할 �
 Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.    
 ```
 ## Open Source List
+{: .left-bar-title }
 ![OssList](images/2_oss_list.png)
 
-### ID  
+### ID
+{: .specific-title}  
 - Open Source를 식별하는 숫자입니다.
 - Open Source 버전이 여러 개 등록된 경우 '+'가 표시되며 최상위 버전이 표시됩니다. '+' 버튼을 클릭하면 하위 버전의 Open Source 정보를 확인할 수 있습니다.
 
-### OSS Type  
+### OSS Type
+{: .specific-title}  
 - **Multi**
     - Multi License로 하나의 OSS에 여러 License의 Source Code가 포함된 경우입니다.
     - 실제 사용한 Source Code에 해당하는 License만 OSS 보고서 또는 Identification의 OSS List에 포함하면 됩니다.
@@ -27,46 +30,58 @@ Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.
 - **V-Diff**
     - Version different License로 Open Source 버전 별로 License가 다른 경우입니다.
 
-### OSS Name 
+### OSS Name
+{: .specific-title} 
 - Nick 표시된 OSS는 하나의 OSS가 여러 개의 Name을 갖고 있습니다.
     예) "bison"의 Nick name은 "Bison parser", "GNU bison" 로 모두 같은 OSS를 표현하고 있습니다.
         Identification에서 GNU bison (Nick name)으로 입력된 경우 자동으로 bison (OSS name)으로 변경됩니다.
 - 검색 시 자동완성을 지원하며, 세 글자 입력부터 부분 일치하는 OSS Name 목록이 표시됩니다.
       
-### Version 
+### Version
+{: .specific-title} 
 - OSS 버전을 의미합니다.
 
-### License Name 
+### License Name
+{: .specific-title} 
 - OSS의 Declared License 정보를 알 수 있습니다.  
 - Multi License는 OSS에 포함되는 모든 License가 <span style="color:red">AND</span>로 표시됩니다.
 - Dual License는 OSS의 License를 복수 개 중 선택할 수 있고 <span style="color:red">OR</span>로 표시됩니다.
 - 입력 키워드에 License Name 또는 SPDX Identifier 와 일치하는 License 입력시 이를 포함하는 모든 Open Source를 검색합니다.
 
 ### License Type
+{: .specific-title}
 - [License Type](https://fosslight.org/hub-guide/menu/2_license.html#license-type)  를 참고하시기 바랍니다. 
 
-### Obligation 
+### Obligation
+{: .specific-title} 
 OSS별로 고지와 소스 코드 공개 의무사항을 알 수 있습니다.
 - **Notice**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
   Copyright나 License (혹은 둘 다)에 대한 고지의 의무가 있음을 의미합니다.
 - **Source**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
   Source Code 공개 의무가 있음을 의미합니다.
 
-### Download Location 
+### Download Location
+{: .specific-title} 
 - Open Source를 다운로드 받을 수 있는 URL이 Link로 표시되며, 클릭 시 해당 사이트로 이동하거나 파일을 다운로드 받을 수 있습니다.
+- 웹 리소스에 대한 고유한 식별자인 Purl 정보를 확인할 수 있습니다. 
 
-### Homepage 
+### Homepage
+{: .specific-title} 
 - Open Source 공식 Site가 있으면, URL로 표시되며 클릭 시 해당 사이트로 이동합니다.
 - URL에 마우스 오버 시 상세주소를 확인할 수 있습니다.
 
-### Description 
+### Description
+{: .specific-title} 
 - Open Source 사용 시 주의 사항을 확인할 수 있습니다.
 
-### Vulnerability 
+### Vulnerability
+{: .specific-title} 
 - NIST에서 제공하는 NVD DB에서 해당 OSS가 검색되면 취약 정도 (CVE Score)에 따라 Vulnerability 아이콘 색깔로 구분되어 표시됩니다.
 
 ## (Admin Only) OSS 추가, 수정, 복사, 삭제, 일괄 변경
+{: .left-bar-title }
 ### OSS 추가
+{: .specific-title}
 ![NEW_OSS](images/2_oss_add_new.PNG) 
 1. OSS List에서 좌측 상단 **Add** 버튼을 클릭합니다.
 2. "New_Opensource" 탭에서 신규 OSS의 정보를 입력합니다.
@@ -76,12 +91,34 @@ OSS별로 고지와 소스 코드 공개 의무사항을 알 수 있습니다.
 3. 우측 상단의 **Save** 버튼을 클릭합니다.
 
 ### OSS 상세정보탭
+{: .specific-title}
 OSS List에서 OSS Name을 클릭합니다.    
 Admin 인 경우에만 Editable하게 표시되며 Save, Sync, Copy, Delete 버튼이 표시됩니다.    
 ![OSS_DETAIL](images/2_oss_detail.PNG)  
 
-#### OSS 수정
+#### **OSS 수정**
 - 정보를 수정한 후 우측 상단의 **Save** 버튼을 클릭합니다.
+
+#### Vulnerability Info
+1. OSS Version Alias : CVE-ID 매핑시, 추가로 매핑할 버전 정보
+2. Include CPE : CVE-ID 매핑시 매핑할 cpe 정보
+3. Exclude CPE : CVE-ID 매핑시 제외할 cpe 정보
+
+#### Detected License 
+1. OSS에서 추가로 검출된 License 정보
+
+#### Restriction 
+1. OSS별 제약 사항 (License의 Restriction과 별개) Level에 따라 Restriction 아이콘 색깔이 다르게 표시됩니다.   
+상세 내용은 [Restriction](https://fosslight.org/hub-guide/menu/2_license.html#restriction)을 참고하시기 바랍니다.  
+   ![restriction_green](images/2_oss_green.png) : Level 1  
+   ![restriction_yellow](images/2_oss_yellow.png) : Level 2~3  
+   ![restriction_red](images/2_oss_red.png) : Level 4~5
+
+#### Summary Description
+1. Open Source 사용 시 주의 사항을 확인할 수 있습니다.
+
+#### Project
+1. 해당 OSS가 사용되는 Project 정보를 확인할 수 있습니다. 
 
 #### OSS 복사
 OSS 복사 기능은 동일한 OSS의 다른 버전을 추가할 때 유용합니다.
