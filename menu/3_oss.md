@@ -3,11 +3,12 @@ sort: 3
 published: true
 ---
 # Open Source
-```note
-등록된 OSS(Open Source Software) 정보를 확인하고, OSS를 추가, 수정, 삭제할 수 있습니다.     
-OSS List의 OSS Name Column 내 cell을 클릭하면 상세정보를 확인할 수 있습니다.    
-Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.    
-```
+<div class="note">
+    등록된 OSS(Open Source Software) 정보를 확인하고, OSS를 추가, 수정, 삭제할 수 있습니다.<br>
+    OSS List의 OSS Name Column 내 cell을 클릭하면 상세정보를 확인할 수 있습니다.<br>
+    Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.<br>
+</div>
+
 ## Open Source List
 {: .left-bar-title }
 ![OssList](images/2_oss_list.png)
@@ -50,14 +51,14 @@ Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.
 
 ### License Type
 {: .specific-title}
-- [License Type](https://fosslight.org/hub-guide/menu/2_license.html#license-type)  를 참고하시기 바랍니다. 
+- [License Type](https://fosslight.org/hub-guide/menu/2_license.html#license-type)을 참고하시기 바랍니다. 
 
 ### Obligation
 {: .specific-title} 
-OSS별로 고지와 소스 코드 공개 의무사항을 알 수 있습니다.
-- **Notice**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
+- OSS별로 고지와 소스 코드 공개 의무사항을 알 수 있습니다.
+    - **Notice**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
   Copyright나 License (혹은 둘 다)에 대한 고지의 의무가 있음을 의미합니다.
-- **Source**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
+    - **Source**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
   Source Code 공개 의무가 있음을 의미합니다.
 
 ### Download Location
@@ -78,56 +79,77 @@ OSS별로 고지와 소스 코드 공개 의무사항을 알 수 있습니다.
 {: .specific-title} 
 - NIST에서 제공하는 NVD DB에서 해당 OSS가 검색되면 취약 정도 (CVE Score)에 따라 Vulnerability 아이콘 색깔로 구분되어 표시됩니다.
 
-## (Admin Only) OSS 추가, 수정, 복사, 삭제, 일괄 변경
+## OSS 상세정보 
 {: .left-bar-title }
-### OSS 추가
-{: .specific-title}
-![NEW_OSS](images/2_oss_add_new.PNG) 
-1. OSS List에서 좌측 상단 **Add** 버튼을 클릭합니다.
-2. "New_Opensource" 탭에서 신규 OSS의 정보를 입력합니다.
-    - OSS Name, Nick Name은 중복될 수 없습니다. 
-    - Summary Description : 해당 OSS에 대한 정보를 입력합니다.
-    - Attribution : OSS Notice 발행시 별도로 포함되어야 하는 문구를 기입합니다.
-3. 우측 상단의 **Save** 버튼을 클릭합니다.
+OSS List에서 OSS Name을 클릭합니다.  
+![OssList](images/2_oss_user_detail.png)  
 
-### OSS 상세정보탭
-{: .specific-title}
-OSS List에서 OSS Name을 클릭합니다.    
-Admin 인 경우에만 Editable하게 표시되며 Save, Sync, Copy, Delete 버튼이 표시됩니다.    
-![OSS_DETAIL](images/2_oss_detail.png)  
 
-#### **OSS 수정**
-- 정보를 수정한 후 우측 상단의 **Save** 버튼을 클릭합니다.
+### Vulnerability Info
+{: .specific-title} 
+1. OSS Version Alias : CVE-ID 매핑시, 추가로 매핑된 버전 정보
+2. Include CPE : CVE-ID 매핑시 매핑된 cpe 정보
+3. Exclude CPE : CVE-ID 매핑시 제외된 cpe 정보
 
-#### Vulnerability Info
-1. OSS Version Alias : CVE-ID 매핑시, 추가로 매핑할 버전 정보
-2. Include CPE : CVE-ID 매핑시 매핑할 cpe 정보
-3. Exclude CPE : CVE-ID 매핑시 제외할 cpe 정보
+### Detected License 
+{: .specific-title} 
+- OSS에서 추가로 검출된 License 정보
 
-#### Detected License 
-1. OSS에서 추가로 검출된 License 정보
 
-#### Restriction 
-1. OSS별 제약 사항 (License의 Restriction과 별개) Level에 따라 Restriction 아이콘 색깔이 다르게 표시됩니다.   
+### Restriction 
+{: .specific-title} 
+- OSS별 제약 사항 (License의 Restriction과 별개) Level에 따라 Restriction 아이콘 색깔이 다르게 표시됩니다.   
 상세 내용은 [Restriction](https://fosslight.org/hub-guide/menu/2_license.html#restriction)을 참고하시기 바랍니다.  
    ![restriction_green](images/2_oss_green.png) : Level 1  
    ![restriction_yellow](images/2_oss_yellow.png) : Level 2~3  
    ![restriction_red](images/2_oss_red.png) : Level 4~5
 
-#### Summary Description
-1. Open Source 사용 시 주의 사항을 확인할 수 있습니다.
+### Summary Description
+{: .specific-title}
+- Open Source 사용 시 주의 사항을 확인할 수 있습니다.
 
-#### Project
-1. 해당 OSS가 사용되는 Project 정보를 확인할 수 있습니다. 
+### Important Notes 
+{: .specific-title}
+- OSS 사용 시 반드시 확인해야 할 사항들이 기술되어 있습니다. 
 
-#### OSS 복사
-OSS 복사 기능은 동일한 OSS의 다른 버전을 추가할 때 유용합니다.
-1. 우측 상단의 **Copy** 버튼을 클릭합니다. 
-2. 동일한 OSS 정보로 "New_Opensource" 탭이 뜹니다.
-3. 이때, OSS Version에 "_Copied"가 append 되어 있으므로 버전 정보를 수정해야 합니다.  
-4. 정보 수정 후 우측 상단의 **Save** 버튼을 클릭하면 OSS가 등록됩니다.
 
-#### OSS 삭제
+### Attribution 
+{: .specific-title}
+- OSS Notice 발행시 별도로 포함되는 문구를 확인할 수 있습니다. 
+
+
+## (Admin Only) OSS 추가, 수정, 복사, 삭제, 일괄 변경
+{: .left-bar-title }
+OSS List에서 OSS Name을 클릭합니다.    
+Admin 인 경우에만 Editable하게 표시되며 Sync, Copy, Delete, Save 버튼이 표시됩니다.
+
+<details>
+<summary>OSS 상세정보(Admin)</summary>  
+<img src="images/2_oss_detail.png" alt="NEW_OSS" style="max-width: 100%; height: auto;">
+</details>
+
+### OSS 추가
+{: .specific-title}
+1. OSS List에서 좌측 상단 **Add** 버튼을 클릭합니다.
+2. "New_Opensource" 탭에서 신규 OSS의 정보를 입력합니다.
+    - OSS Name, Nick Name은 중복될 수 없습니다. 
+3. 우측 상단의 **Save** 버튼을 클릭합니다.
+
+
+### OSS 수정
+{: .specific-title}
+- 정보를 수정한 후 우측 상단의 **Save** 버튼을 클릭합니다.
+
+### OSS 복사
+{: .specific-title}
+- OSS 복사 기능은 동일한 OSS의 다른 버전을 추가할 때 유용합니다.
+    1. 우측 상단의 **Copy** 버튼을 클릭합니다. 
+    2. 동일한 OSS 정보로 "New_Opensource" 탭이 뜹니다.
+    3. 이때, OSS Version에 "_Copied"가 append 되어 있으므로 버전 정보를 수정해야 합니다.  
+    4. 정보 수정 후 우측 상단의 **Save** 버튼을 클릭하면 OSS가 등록됩니다.
+
+### OSS 삭제
+{: .specific-title}
 1. Comment란에 삭제 사유를 기입합니다.
 2. 우측 상단의 **Delete** 버튼을 클릭합니다.
     - 📢 해당 OSS가 Identification 단계가 Confirm된 Project에 포함된 경우, Delete 버튼 클릭 시 다른 OSS로 Merge 하는 창이 팝업됩니다.   
@@ -135,19 +157,20 @@ OSS 복사 기능은 동일한 OSS의 다른 버전을 추가할 때 유용합�
         - Merge할 OSS를 선택하면, 삭제하는 OSS의 Name과 NickName은 Merge하는 OSS의 Nickname으로 이동됩니다.
 
 
-#### OSS 버전별 정보 일괄 변경 기능
-OSS에 여러 버전이 등록된 경우, 각 버전별 정보를 일괄 업데이트시 사용합니다.
-우측 상단의 **Sync** 버튼을 클릭합니다.
+### OSS 버전별 정보 일괄 변경 기능
+{: .specific-title}
+- OSS에 여러 버전이 등록된 경우, 각 버전별 정보를 일괄 업데이트시 사용합니다. 우측 상단의 **Sync** 버튼을 클릭합니다.
 ![OSS_SYNC](images/2_oss_sync.PNG)  
-- (1) 수정할 OSS 버전을 선택합니다. 
-    - 이미 동일한 OSS 정보를 가진 버전의 경우, 회색으로 표시되며 선택 불가합니다.
-- (2) 수정할 OSS의 정보를 선택합니다. 
-    - 체크된 항목에 대해서만 정보가 업데이트됩니다.
-    - 표시되는 정보는 (1)에서 선택된 Row의 해당 버전의 OSS 정보가 표시됩니다.
-- (3) Comment 입력란
-    - OK 클릭시 (1)에서 선택한 수정할 OSS 버전에 입력한 Comment가 추가됩니다.
+    1. 수정할 OSS 버전을 선택합니다. 
+        - 이미 동일한 OSS 정보를 가진 버전의 경우, 회색으로 표시되며 선택 불가합니다.
+    2. 수정할 OSS의 정보를 선택합니다. 
+         체크된 항목에 대해서만 정보가 업데이트됩니다.
+        - 표시되는 정보는 i에서 선택된 Row의 해당 버전의 OSS 정보가 표시됩니다.
+    3. Comment 입력란
+        - OK 클릭시 i에서 선택한 수정할 OSS 버전에 입력한 Comment가 추가됩니다.
 
-
-
+### Project
+{: .specific-title}
+- 해당 OSS가 사용되는 Project 정보를 확인할 수 있습니다. 
 
 
