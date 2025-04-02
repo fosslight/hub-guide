@@ -17,7 +17,7 @@ published: true
 ![prj](images/5_bom_tap.png){: .styled-image}
 1. Merge And Save 버튼을 클릭합니다.
     - 3rd Party, SRC, BIN 탭에 작성한 OSS List를 취합합니다.
-2. [**Warning message 검토**](https://fosslight.org/hub-guide/tutorial/1_project.html#-oss-tables-warning-message)을 확인합니다.
+2. [**Warning message 검토**](https://fosslight.org/hub-guide/tips/1_common/5_warning_message)을 확인합니다.
 3. Request Review 버튼을 클릭하여 리뷰 요청을 합니다.
     - 단, 빨간색 Warning Message가 있을 경우 리뷰 요청이 불가합니다.
 

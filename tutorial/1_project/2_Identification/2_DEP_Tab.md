@@ -10,7 +10,7 @@ Dependency 분석 결과를 작성합니다.
 
 ## DEP 탭 작성 Process
 {: .left-bar-title }
-- Dependency 분석 대상 경우 : Dependency 분석 결과 작성 → [**Warning message 검토**](https://fosslight.org/hub-guide/tutorial/1_project.html#-oss-tables-warning-message) → Save
+- Dependency 분석 대상 경우 : Dependency 분석 결과 작성 → [**Warning message 검토**](https://fosslight.org/hub-guide/tips/1_common/5_warning_message) → Save
 - Dependency 분석 대상이 아닌 경우 (Ex. Package manager를 통해 개발하지 않은 프로젝트) : Not Applicable 체크 → Save
 
 

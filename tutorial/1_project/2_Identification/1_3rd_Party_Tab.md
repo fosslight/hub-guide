@@ -15,7 +15,7 @@ published: true
 ## 3rd Party 탭 작성 Process
 {: .left-bar-title }
 - 3rd Party Software가 포함된 경우: 사전에 리뷰 완료된 3rd Party를 Load → Save
-    - 3rd Party Software가 포함되지 않은 경우: Not Applicable 체크 → Save
+- 3rd Party Software가 포함되지 않은 경우: Not Applicable 체크 → Save
 
 ## 리뷰 완료된 3rd Party를 Load하는 방법**
 {: .left-bar-title }
