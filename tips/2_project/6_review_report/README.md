@@ -4,7 +4,12 @@ published: true
 ---
 
 # Review Report 
-Review Report는 Project의 Identification Confirm시 BOM 내용을 바탕으로 발급됩니다. 
+<div class="note">
+Review Report는 오픈소스 컴플라이언스(Compliance) 검토 자료로 활용될 수 있으며, 제품 배포 전 OSS 구성 요소의 점검 및 보안 취약점에 대한 사전 대응 등 리스크 기반 관리를 보다 효율적으로 수행하는 데에 유용합니다.<br><br>
+</div>
+
+Review Report는 Project의 Identification Confirm시 BOM 내용을 바탕으로 발급됩니다.
+- Review Report는 FOSSLight DB의 데이터를 기반으로 생성됩니다. 따라서 신뢰성 있는 리포트를 제공받기 위해서는 DB에 입력된 OSS 및 License 정보가 반드시 정확해야 합니다
 
 ## Review Report Details 
 {: .left-bar-title}
