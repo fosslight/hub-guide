@@ -31,8 +31,8 @@ Open Source의 보안 취약점 존재 여부 및 관련 정보(CVE ID, CVSS Sco
 ## [Self-Check](6_self-check.md)
 Self-Check 등록 및 OSS 정보 확인
 
-## [Configuration](8_configuration.md)
-*(Admin Only)* 시스템 설정 값 변경
+## [Compliance Status](11.compliance_status.md)
+*(LGE Only)* 배포하는 Software 및 Model에 대한 Open Source Compliance 현황 확인
 
 ## [System](9_system.md)
 *(Admin Only)* 시스템 운영 Log 확인 및 운영 Data 설정 변경
