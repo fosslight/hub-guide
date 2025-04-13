@@ -4,8 +4,8 @@ published: true
 ---
 # License
 <div class="note">
-º 등록된 License 정보를 확인하고, License를 추가, 수정, 삭제할 수 있습니다.<br>
-º License Name을 클릭하면 License 별 상세정보를 확인할 수 있습니다.<br>
+º 등록된 License 정보를 확인하고,License Name을 클릭하면 해당 License의 상세정보를 확인할 수 있습니다.<br>
+º (Admin Only) License를 추가, 수정, 삭제할 수 있습니다.<br>
 </div>
 
 ## License List
@@ -39,7 +39,7 @@ published: true
 
 ### Restriction 
 {: .specific-title} 
-
+Restriction 내용은 [OSORI](https://osori-db.github.io/docs/guide/) 프로젝트를 기반으로 작성되었습니다. 
 <style>
     /* 가운데 정렬 스타일 */
     .centered-table td:nth-child(3), .centered-table td:nth-child(4) {
@@ -290,7 +290,7 @@ License별로 고지와 소스코드 공개 의무사항을 알 수 있습니다
 {: .left-bar-title }
 ### License 추가
 {: .specific-title} 
-![NEW_OSS](images/3_lic_add.PNG){: .styled-image}
+![NEW_OSS](images/3_lic_add.PNG){: .styled-image width="80%"}
 1. License List에서 좌측 상단 Add 버튼을 클릭합니다.
 2. "New_License" 탭에서 신규 OSS의 정보를 입력합니다.
     - **License Name, Nick Name**은 중복될 수 없습니다. 
