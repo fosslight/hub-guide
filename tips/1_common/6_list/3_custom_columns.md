@@ -6,12 +6,12 @@ published: true
 
 <div class="note">
 각 메뉴의 List 화면에서 보이는 Column을 개인별로 설정하고 저장 할 수 있습니다.<br>
+- Project<br> 
 - 3rd party<br>  
 - Open Source<br>  
 - License<br> 
 - Self-Check<br>  
 </div>
-
 
 ![ChangeDivisionInList](../../images/common/list_view_buttons/custom_columns.png){: .styled-image} 
 Grid 왼쪽 상단의 ![ChangeDivisionInList](../../images/common/list_view_buttons/custom_columns_button.png) 버튼을 클릭하여 보여지는 column을 세팅 할 수 있습니다. 
