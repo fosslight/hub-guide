@@ -17,12 +17,12 @@
 - [Binary DB](menu/10_binarydb.md)
 - [Vulnerability](menu/7_vulnerability.md)
 - [Self-Check](menu/6_self-check.md)
-- [Configuration](menu/8_configuration.md)
+- [(LGE Only)Compliance Status](11.compliance_status.md)
 - [System](menu/9_system.md)
 
 ### FOSSLight Hub 기본 Tutorial
-- [Project Tutorial](tutorial/1_project.md) : Project를 등록하여 Open Source Compliance 순차적으로 수행하기
-- [Self-check Tutorial](tutorial/2_self_check.md) : Self-check로 Open Source 의무 사항 및 보안취약점 간단히 확인하기
+- [Project Tutorial](tutorial/1_project/README.md) : Project를 등록하여 Open Source Compliance 순차적으로 수행하기
+- [Self-check Tutorial](tutorial/2_self_check/README.md) : Self-check로 Open Source 의무 사항 및 보안취약점 간단히 확인하기
 
 ### FOSSLight Hub 고급 기능
 - [개발 환경 세팅](advanced/1_developer.md)
