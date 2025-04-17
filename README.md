@@ -17,7 +17,7 @@
 - [Binary DB](menu/10_binarydb.md)
 - [Vulnerability](menu/7_vulnerability.md)
 - [Self-Check](menu/6_self-check.md)
-- [(LGE Only)Compliance Status](11.compliance_status.md)
+- [(LGE Only)Compliance Status](menu/11.compliance_status.md)
 - [System](menu/9_system.md)
 
 ### FOSSLight Hub 기본 Tutorial
