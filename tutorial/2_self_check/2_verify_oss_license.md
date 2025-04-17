@@ -8,7 +8,7 @@ published: true
 
 ## Warning Messages
 {: .left-bar-title }
-기술된 OSS, Version, License 와 OSC 시스템에 등록된 정보를 비교하여 관련 알림이 표시됩니다.  
+입력한 OSS, Version, License 와 FOSSLight Hub에 등록된 정보를 비교하여 관련 알림이 표시됩니다.  
 
 | Message | Meaning |
 |------|-----|
@@ -31,7 +31,7 @@ published: true
 
 ## OSS 사용에 따른 의무/제한 사항
 {: .left-bar-title }
-상세 내용은 [**License List**](2_license.md)에서 확인 가능합니다.  
+상세 내용은 [**License List**](../../menu/2_license.md)에서 확인 가능합니다.  
 - **Notice Column**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우, 
   Copyright나 License (혹은 둘 다)에 대한 고지의 의무가 있음을 의미합니다.
 - **Source Column**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
