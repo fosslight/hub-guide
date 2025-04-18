@@ -7,7 +7,7 @@ title: 2.Identification
 
 # Identification 
 <div class="note">
-배포하는 Project에 대하여 Open Source Software 분석 결과를 작성하고, 전사 OSC팀의 리뷰를 받습니다.
+배포하는 Project에 대하여 Open Source Software 분석 결과를 작성하고, OSPO의 리뷰를 받습니다.
 </div>
 
 {% include list.liquid all=true %}

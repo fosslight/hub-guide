@@ -29,7 +29,7 @@ Source Code 분석 결과를 작성합니다.
 2. Upload 버튼 클릭하여 FOSSLight Report 파일을 업로드합니다.
 <img src="images/3_src_upload.png" alt="select" class="styled-image">
 3. Select Sheet 팝업에서 SRC 분석 결과의 OSS List가 쓰여진 Sheet를 선택합니다. (여러 Sheet를 선택 가능합니다.)
-<img src="images/3_src_file_select.png" alt="select" class="styled-image_nofloat" style="width: 30%; height: auto;">
+<img src="images/3_src_file_select.png" alt="select" class="styled-image">
 
 
 ### Project Search (일괄 Load)
@@ -38,7 +38,7 @@ Source Code 분석 결과를 작성합니다.
 2. Project Name, Project Version으로 불러올 Project를 검색합니다.
 3. 검색 결과 (Result)에서 load할 Project 선택 후, Load 버튼 클릭합니다.
 4. 하기 버튼 중 선택합니다.  
-<img src="images/2_dep_search_option.png" alt="select" class="styled-image_nofloat" style="width: 50%; height: auto;">
+<img src="images/2_dep_search_option.png" alt="select" class="styled-image">
     - Reset & Load : SRC탭을 모두 초기화한 후 불러오는 Project의 SRC탭 작성된 사항을 OSS Table에 추가합니다.
     - Load & Append : SRC탭 작성된 사항 유지한 상태로 불러오는 Project의 SRC탭 작성된 사항을 OSS Table에 추가합니다.
     - Cancel : 취소합니다.
