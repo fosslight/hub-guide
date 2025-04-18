@@ -4,7 +4,7 @@ published: true
 title: 4.Distribution
 ---
 
-# 4. Distribution(Enterprise 전용)
+# Distribution(Enterprise Only)
 <div class="note">
 Distribution을 수행하면 배포 사이트에 OSS 고지문 / OSS Package가 등록됩니다.
 </div> 
