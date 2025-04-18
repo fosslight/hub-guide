@@ -31,16 +31,20 @@ published: true
 ## OSS Table 설명
 {: .left-bar-title }
 각 탭(3rd Party, SRC, BIN) 의 OSS Name, OSS Version별로 Row를 Merge하여 보여줍니다. 단, OSS Name 이 - 인 경우는 Merge되지 않습니다.
-- Reference : 해당 OSS Name, OSS Version이 작성된 탭을 표시합니다.
-- Obligation: 배포시 의무사항
-    - Notify : 저작권 및 License를 고지 의무가 있습니다.
-    - Source : 소스코드 공개 의무가 있습니다.
-- Restriction: R 아이콘이 표시되어 있는 경우, 해당 License에 제약사항이 존재합니다.
-- admin check: admin check 된 항목은 하기와 같은 예외사항이 적용됩니다.
+- **Reference** : 해당 OSS Name, OSS Version이 작성된 탭을 표시합니다.
+- **Obligation**: 배포시 의무사항
+    - **Notify** : 저작권 및 License를 고지 의무가 있습니다.
+    - **Source** : 소스코드 공개 의무가 있습니다.
+- **Restriction**: R 아이콘이 표시되어 있는 경우, 해당 License에 제약사항이 존재합니다.
+- **admin check**: admin check 된 항목은 하기와 같은 예외사항이 적용됩니다.
     - 해당 Row의 License에 해당하는 Obligation 대신, admin이 변경한 Obligation이 적용됩니다.
     - OSS Name, OSS Version에 포함되지 않은 License도 표기 가능합니다. 
     - OSS Name을 nickname으로 작성할 수 있습니다.
     - OSS Name, OSS Version에 대하여 OSC system에 저장된 Copyright text, Download location, Homepage 의 정보 대신 해당 Row에 작성된 정보로 OSS Notice에 포함됩니다.
+
+## Confirm 시점 BOM data 변경 
+{: .left-bar-title }
+Identification 단계가 confirm되고 나면, bom tab의 download location, homepage, copyright의 정보가 OSS DB에 저장된 값으로 변경되며, 이를 기반으로 생성된 report를 다운로드 할 수 있습니다.
 
 ## Export
 {: .left-bar-title }

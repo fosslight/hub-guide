@@ -4,17 +4,12 @@ published: true
 ---
 # Project
 <div class="note">
-    Open Source Software를 포함하는 Software의 개발 및 배포를 위해 수행해야 하는 Process를 순차적으로 수행합니다. <br><br>
-
-    1. <strong>Identification</strong>: OSS 보고서 등록 <br>
-    2. <strong>Approval</strong>: OSS 보고서 리뷰 <br>
-    3. <strong>Package Verification</strong>: 패키지 취합 및 OSS 고지문 생성  
+    Open Source Software를 포함하는 Software의 개발 및 배포를 위해 수행해야 하는 Process를 순차적으로 수행합니다. <br>
+    상세 내용은 <a href="https://fosslight.org/hub-guide/tutorial/1_project"><strong>Project tutorial</strong></a>을 참고하시기 바랍니다.<br>
+    1. <a href="https://fosslight.org/hub-guide/tutorial/1_project/2_Identification"><strong>Identification</strong></a> : Open Source 분석 결과(FOSSLight Report)를 작성하여 OSPO에게 리뷰받습니다.<br>
+    2. <a href="https://fosslight.org/hub-guide/tutorial/1_project/3_packaging"><strong>Packaging</strong></a> : 공개할 Source Code를 취합하여 OSS Package를 생성합니다. <br>
+    3. <a href="https://fosslight.org/hub-guide/tutorial/1_project/4_distribution"><strong>Distribution</strong></a> : OSS Notice와 OSS Package를 배포사이트에 등록합니다. 
 </div>
-
-<div class="youtube-container">
-<iframe src="https://www.youtube.com/embed/IUrQyj3s-Ps" title="FOSSLight Hub - 프로젝트 생성" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 
 ## Project List
 {: .left-bar-title }
@@ -67,35 +62,6 @@ Project를 검색하고, 해당 Project의 전체적인 정보를 확인하고 F
 
 ### 7. Security
 {: .specific-title}  
-<div class="note">
-Security 탭에서는 Identification 단계의 BOM 탭 기준 Vulnerability score가 기준 점수 이상인 OSS에 대하여 CVE ID별로 확인 및 조치 상태를 관리할 수 있습니다. <br>
-    •  Vulnerability score 기준 점수는 Code Management > 760 (Security Vulnerability Score)에서 설정하실 수 있습니다.   
-</div>
-![prj](images/4_project_sec_list.PNG){: .styled-image}  
 Project의 Identification에 포함된 전체 Open Source List의(Exclude 제외) Vulnerability 정보에 대해 나타냅니다.
 - (<img src="images/4_project_security_need_to_resolve.PNG" width="120" height="25" />) : Vulnerability score가 기준 점수 이상인 경우 
 - (<img src="images/4_project_security_na.PNG" width="120" height="25" />) : Vulnerability score가 기준 점수 미만인 경우 
-
-
-#### Column 정보
-{: .under-bar-title}
-- **OSS Name, OSS version**
-    - Identification 단계의 BOM 탭에 작성된 OSS 정보가 자동 출력됩니다.
-- **CVE ID, CVSS Score, Published Date**
-    - CVE ID 및 해당 CVE ID의 CVSS Score, 발행일 정보가 자동 출력됩니다. 
-- **Vulnerability Resolution**
-    - 기본값으로 Unresolved로 설정되며, 보안취약점 해결 시 Fixed로 변경할 수 있습니다. 
-
-#### OSS version 미 입력시
-{: .under-bar-title}
-- Security 탭에서는 OSS version 미기입된 CVE ID에 대해 정확한 vulnerability 확인이 어렵기에 전체 CVE ID 리스트를 보여주고 있지 않습니다.
-- 탭 진입 시 다음 팝업 화면이 뜨는 경우, Identification 탭에서 해당 Open Source의 정확한 version을 입력한 후 BOM 탭 Save하면 
-Security 탭에서 정확한 보안취약점 CVE ID 목록을 확인할 수 있습니다.  
-![prj](images/4_project_sec_popup.PNG){: .styled-image}
-
-#### Vulnerability Resolution 여부 Identification 단계 반영
-{: .under-bar-title}
-- Identification 단계 탭에서 Vulnerability score 확인 시, Security 탭에서 vulnerability resolution 값을 'Fixed'로 변경한 CVE ID에 대해서는 제외된 Max score를 확인할 수 있습니다.
-- Identification 단계 탭에서 Vulnerability Icon 클릭 시, 해당 OSS name 및 version에 대한 전체 CVE ID 리스트 창에서 'Fixed'된 CVE ID는 아래와 같이 비활성화 처리된 것을 확인할 수 있습니다.  
-![fixed](images/4_project_security_fixed.png){: .styled-image}
-<br>
