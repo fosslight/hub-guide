@@ -21,9 +21,8 @@ title: 2.Identification
         - [**BIN**](https://fosslight.org/hub-guide/tutorial/1_project/2_Identification/4_BIN_Tab.html): Binary 분석 결과를 작성합니다.  
         - [**BOM**](https://fosslight.org/hub-guide/tutorial/1_project/2_Identification/5_BOM_Tab.html): 다른 탭에 작성된 OSS List를 취합하고 Warning message를 검토한 후 리뷰 요청을 합니다.  
 
-## Android model의 Identification Process
+## (LGE Only) Platform-generated Project의 Identification Process
 {: .left-bar-title }
-- BIN(Android) 탭 작성 → BIN(Android) 탭에서 Request 버튼을 클릭하여 리뷰 요청
-    - BIN(Android) : Android binary 분석 결과를 작성합니다.
-
-
+- BIN(Android), BIN(Yocto) Tab : 각 탭 작성 → Request 버튼을 클릭하여 리뷰 요청합니다.  
+        - BIN(Android) : [Android binary 분석](https://fosslight.org/fosslight-guide/scanner/6_android.html) 결과를 작성합니다.  
+        - BIN(Yocto) : [Yocto 분석](https://fosslight.org/fosslight-guide/scanner/5_yocto.html) 결과를 작성합니다.  

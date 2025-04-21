@@ -21,7 +21,7 @@ title: 1.Create a project
 2. **New_Project** 탭에서 Project 관련 정보를 입력합니다.
 ![prj_add_information](images/1_project_add_information.png){: .styled-image}
 
-3. 입력이 끝나면 우측 상단의 **Save**(<img src="images/save_button.PNG" width="20" height="20" />) 버튼을 클릭합니다.
+3. 입력이 끝나면 우측 상단의 **Save**( <img src="images/floppy-disk-solid.png" width="16" height="20" /> ) 버튼을 클릭합니다.
 <br>
 
 ### Project Information
@@ -56,7 +56,7 @@ Project에 대한 기본 정보를 입력하는 페이지입니다.
             <td><strong class="highlight_table">Permission</strong></td>
             <td>Project의 보기 권한을 설정합니다.<br>
                 <ul class="description-list">
-                    <li>Creator와 Watcher에게만 Project 보기 권한을 줄 경우, 'Creator & Watcher'를 선택합니다.</li>
+                    <li>Creator와 Editor에게만 Project 보기 권한을 줄 경우, 'Creator & Editor'를 선택합니다.</li>
                     <li>(Everyone 체크시 누구나 볼 수 있음.)</li>
                 </ul>
             </td>
@@ -132,10 +132,10 @@ Project에 대한 기본 정보를 입력하는 페이지입니다.
             <td>Compliance에 필요한 부가정보가 있을 경우, 입력합니다.</td>
         </tr>
         <tr>
-            <td><strong class="highlight_table">Watcher</strong></td>
+            <td><strong class="highlight_table">Editor</strong></td>
             <td>해당 Project 정보 및 현황을 공유하고자 하는 사용자를 등록합니다.<br>
                 <ul class="description-list">
-                    <li>Watcher로 등록된 사용자는 해당 Project에 대하여 Creator와 동일한 조회, 편집 권한을 가지고, 시스템에서 프로젝트 관련된 메일이 발송됩니다.</li>
+                    <li>Editor로 등록된 사용자는 해당 Project에 대하여 Creator와 동일한 조회, 편집 권한을 가지고, 시스템에서 프로젝트 관련된 메일이 발송됩니다.</li>
                     <li>단, AD ID로 추가한 계정 중 FOSSLight Hub에 가입되지 않은 사용자는 최초 FOSSLight Hub 계정 등록 안내 메일 외 프로젝트 관련 메일이 발송되지 않습니다.</li>
                 </ul>
             </td>
@@ -148,14 +148,14 @@ Project에 대한 기본 정보를 입력하는 페이지입니다.
 </table>
 
 ### Project의 Share, Copy, Delete, Save 등
-{: .specific-title}  
-- **Share**: 생성되는 URL을 통해 Project를 공유할 수 있습니다.
-- **Copy**: Project를 복사하여 새로운 Project를 생성합니다. 
-- **Delete**: Project를 삭제합니다. 
-- **Save**: 기본 정보를 수정한 후에는 클릭해야 저장됩니다. 
-- **Drop**: Project의 Status를 Drop으로 변경합니다. 다시 Process를 진행하기 위해서는 Open 버튼을 클릭해야 합니다. 
-- **Open**: Status가 Drop인 경우 표시되며 클릭하면 Status를 Progress로 변경합니다. 
-- **Reopen**: Status가 Complete인 Project인 경우 표시되며 Status를 Progress로 변경하여 Process를 재수행할 수 있습니다. 
+{: .specific-title}
+자세한 내용은 [상세 화면의 공통 기능](https://fosslight.org/hub-guide/tips/1_common/3_project_tab_bar/)을 참고하시기 바랍니다.  
+- **Share**( <img src="images/share-nodes-solid.png" width="16" height="20" /> ): 생성되는 URL을 통해 Project를 공유할 수 있습니다.  
+- **Copy**( <img src="images/copy-regular.png" width="16" height="20" /> ): Project를 복사하여 새로운 Project를 생성합니다.  
+- **Delete**( <img src="images/trash_can.png" width="16" height="20" /> ): Project를 삭제합니다.  
+- **Save**( <img src="images/floppy-disk-solid.png" width="16" height="20" /> ): 기본 정보를 수정한 후에는 클릭해야 저장됩니다.  
+- **Drop**: Project의 Status를 Drop으로 변경합니다. 다시 Process를 진행하기 위해서는 Reopen 버튼을 클릭해야 합니다.  
+- **Reopen**: Status가 Drop 또는 Complete인 Project인 경우 표시되며 Status를 Progress로 변경하여 Process를 재수행할 수 있습니다.  
 - **(Admin Only)**
-    - Complete: 모든 Process가 완료된 Project에 대하여 Status를 변경합니다. 
-    - Open: Status가 Complete 또는 Drop인 경우 표시되며 Status를 Progress로 변경합니다. 
+    - Complete: 모든 Process가 완료된 Project에 대하여 Status를 변경합니다.  
+    - Reopen: Status가 Complete 또는 Drop인 경우 표시되며 Status를 Progress로 변경합니다.  
