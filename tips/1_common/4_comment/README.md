@@ -37,7 +37,7 @@ published: true
 
 ## Comment Window 분리
 {: .left-bar-title }
-- ![ShowCommentWindow](../../images/common/comment/show_comment_window.png) 버튼을 클릭하여 Comment를 별도의 창으로 분리하여 사용할 수 있습니다. 이 경우 **'+Add'** 버튼을 이용하여 Comment를 추가할 수 있습니다. 
+- ![ShowCommentWindow](../../images/common/comment/show_comment_window.png) 버튼을 클릭하여 Comment를 별도의 창으로 분리하여 사용할 수 있습니다. 이 경우 **'+Add'** 버튼을 이용하여 Comment를 추가할 수 있습니다.  
  <img src="../../images/common/comment/comment_window_add.png" width="400" height="360" alt="CommentWindowAdd"  class="styled-image" />  
 
 
