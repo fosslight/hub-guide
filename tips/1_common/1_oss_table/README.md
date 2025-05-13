@@ -114,7 +114,7 @@ OSS Table의 Header 아래에는 Search를 위한 Filter가 위치하고 있습�
           <td>does not end with</td>
       </tr>
       <tr>
-          <td>! z~</td>
+          <td>!~</td>
           <td>does not contain</td>
       </tr>
   </tbody>
