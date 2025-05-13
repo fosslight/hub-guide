@@ -36,12 +36,13 @@ published: true
 
 **Bulk Edit** 
  - <img src="../../images/common/oss_table_buttons/bulk_edit.png" width="12" height="16" />  버튼을 클릭하여 선택된 row에 전체에 대해 동일한 내용으로 업데이트할 수 있습니다.  
-    - 수정을 원하는 항목을 선택한 후, 수정하고자 하는 내용을 작성하고 Change를 눌러줍니다.  
+    - 수정을 원하는 항목을 체크박스에서 선택한 후, 수정하고자 하는 내용을 작성하고 Change를 눌러줍니다.  
+    - 항목을 체크박스에서 선택한 후, Delete 버튼을 누르면 선택된 항목의 내용이 OSS Table에서 모두 삭제됩니다. 
         ![BulkEditDetail](../../images/common/oss_table_buttons/bulk_edit_detail.png){: .styled-image}  
 
 **Export**
 - <img src="../../images/common/oss_table_buttons/download.png" width="12" height="16" /> 버튼을 클릭하여, OSS Table 내용을 선택한 형식으로 Export 합니다. 
-    - BOM Tab : FOSSLight Report 및 SBOM 관리를 위한 여러 가지 형식으로 다운로드 가능합니다.  
+    - BOM Tab : FOSSLight Report 및 SBOM 표준의 여러 가지 형식으로 다운로드 가능합니다.  
     ![ExportListBOM](../../images/common/oss_table_buttons/export_popup_2.png){: .styled-image}    
     - BOM 이외의 Tab : FOSSLight Report 다운로드 가능합니다.  
     ![ExportListOthers](../../images/common/oss_table_buttons/export_popup_1.png){: .styled-image}<br><br><br><br>  
@@ -105,7 +106,7 @@ OSS Table의 Header 아래에는 Search를 위한 Filter가 위치하고 있습�
           <td>does not begin with</td>
       </tr>
       <tr>
-          <td>!</td>
+          <td>|</td>
           <td>end with</td>
       </tr>
       <tr>
