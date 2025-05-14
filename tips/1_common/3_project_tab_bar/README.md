@@ -6,6 +6,8 @@ published: true
 # 상세 화면의 공통 기능  
 각 메뉴 상세 화면의 tab bar 오른쪽에 상세 화면을 제어할 수 있는 버튼이(<img src="../../images/common/information_view_button/common_icon.png" width="90" height="25" alt="CommonIcon" />) 제공되며, 메뉴별 특성에 따라 제공되는 버튼은 각각 다릅니다.  
 - **주요 메뉴** 
+    - License (admin only)
+    - Open Source (admin only) 
     - Project Information
     - Project Identification
     - 3rd Party Information 
@@ -19,7 +21,7 @@ published: true
 - 기능
     - 현재 페이지의 정보를 공유할 수 있습니다. 
     - View 권한이 없을 때, Share URL을 이용하면 해당 항목의 개요를 확인할 수 있습니다.  
-    - 로그인을 해야 share url로 공유받은 화면을 확인할 수 있습니다.  
+    - 로그인을 해야 share url로 공유받은 링크를 확인할 수 있습니다.  
 
 - 공유 예시
     1. Project > Project Information에서 Share 버튼을 클릭합니다.
@@ -68,7 +70,7 @@ published: true
 {: .left-bar-title }  
 - 초기화 버튼 : <img src="../../images/common/information_view_button/rotate-left-solid.png" width="14" height="18" alt="ResetIcon" />  
 - 기능  
-    - 입려된 내용 및 업로드 된 파일이 초기화됩니다.  
+    - 입력된 내용 및 업로드 된 파일이 초기화됩니다.  
     - 초기화 버튼은 분석 정보를 입력하는 화면에서만 보입니다. Project의 Identification, 3rd party SW, Self-Check 에서 확인할 수 있습니다.
 <br><br><br>
 

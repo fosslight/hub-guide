@@ -35,7 +35,7 @@ OSS Table에서 Warning Message를 통해 검토가 필요한 사항을 확인�
           <td>-</td>
         </tr>
         <tr>
-          <td>Source Name or Path</td>
+          <td>Source Path</td>
           <td><span style="color:blue">Format Warning</span></td>
           <td><ul><li>file format이 맞지 않습니다.</li></ul></td>
           <td><ul><li>파일 또는 파일의 경로가 올바르게 입력되었는지 확인합니다.</li></ul></td>
@@ -163,7 +163,7 @@ OSS Table에서 Warning Message를 통해 검토가 필요한 사항을 확인�
   </div>
 </body>
 
-### BIN, BIN(Android) Warning message 정보
+### BIN, BIN(Android) Tab
 {: .specific-title }
 
 <body>
@@ -269,7 +269,7 @@ OSS Table에서 Warning Message를 통해 검토가 필요한 사항을 확인�
           <td>-</td>
           <td>
             <ul>
-              <li>NOTICE.html에 Binary Name column에 작성된 값과 License text가 추가될 수 있도록 합니다.</li>
+              <li>사용된 Binary Name과 해당 Binary의 License text가 NOTICE.html 파일에 추가될 수 있도록 합니다.</li>
             </ul>
           </td>
         </tr>
@@ -279,7 +279,7 @@ OSS Table에서 Warning Message를 통해 검토가 필요한 사항을 확인�
           <td>-</td>
           <td>
             <ul>
-              <li>고지되지 않아도 되는 License (Open Source License)인 경우가 포함되지 않도록 작성합니다.</li>
+              <li>Open Source License가 아닌 Other proprietary license와 같이 고지되지 않아도 되는 License가 NOTICE.html에 포함되지 않도록 합니다.</li>
             </ul>
           </td>
         </tr>
