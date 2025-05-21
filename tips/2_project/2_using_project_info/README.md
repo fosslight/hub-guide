@@ -27,7 +27,10 @@ published: true
     3. 복사된 'Project 상세정보' 탭에서 Project 명과 버전을 작성하고 'Save' 버튼을 클릭합니다.     
     <img src="../../images/project/project_copy/project_copy_3.png" alt="ProjectCopy_3" class="styled-image">  
     Save 클릭 시 Identification이 Confirm된 project의 경우, 복사할 'Status'를 선택할 수 있습니다. 
-    <img src="../../images/project/project_copy/project_copy_4.png" alt="ProjectCopy_4" class="styled-image"> 
+    <img src="../../images/project/project_copy/project_copy_4.png" alt="ProjectCopy_4" class="styled-image">
+    - Identification Progress: 사용하는 Open Source가 변경되어 Identification 단계부터 진행이 필요한 경우  
+    - Identification Confirm: packaging 파일 변경 또는 고지문 수정이 필요한 경우  
+    - Packaging Confirm: 기존 프로젝트와 변동 사항이 없는 경우  
     4. Project List에서 복사된 Project를 확인할 수 있습니다.    
 <br><br><br>
 
