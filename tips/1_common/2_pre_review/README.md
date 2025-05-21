@@ -71,7 +71,7 @@ Download Location, OSS Name, OSS Version을 기반으로 검출된 License를 �
 º 'Registered OSS name (to be changed)'에 적힌 오픈소스 정보를 수정할 수 있습니다. 단, 'Registered OSS name (to be changed)'이 DB에 등록되어 있는 경우에만 가능하고, 이미 저장되어 있는 정보에 대해서는 추가하지 않습니다.
 </div><br>
 
-#### Open Source에 Nicnkname 혹은 Nickname과 URL 추가하기
+#### Open Source에 Nickname 혹은 Nickname과 URL 추가하기
 {: .under-bar-title} 
 1. Pre-Review > Open Source 를 클릭합니다.  
 2. Open Source 정보를 수정하고자 하는 row를 선택합니다. 수정 되는 대상 Open Source 는 'Registered OSS Name (to be changed)' 컬럼에 적힌 Open Source 입니다.  
