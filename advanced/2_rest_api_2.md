@@ -11,7 +11,9 @@ REST API를 호출하기 위해서는 **TOKEN**을 발행해야 합니다. 아�
 <div style="border: 1px solid #d3d3d3; border-radius: 5px; padding: 10px; margin: 20px 0;">
     :sparkles: API 동작 확인은 하기 링크에서 가능합니다.
     <p style="margin-left: 25px;">
-        - Demo 서비스용 : <a href="https://demo.fosslight.org/swagger-ui/index.html" target="_blank">https://demo.fosslight.org/swagger-ui/index.html</a> (연동 서버 : <a href="https://demo.fosslight.org/" target="_blank">https://demo.fosslight.org/</a>)
+        - Demo 서비스용 : <a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://demo.fosslight.orgswagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="https://demo.fosslight.org/" target="_blank">https://demo.fosslight.org</a>)<br>  
+        - 운영 서비스용(LGE Only) : <a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="http://osc.lge.com" target="_blank">http://osc.lge.com</a>) <br>
+        - 테스트용(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)  
     </p>
 </div>
 
