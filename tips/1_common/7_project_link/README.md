@@ -3,7 +3,7 @@ sort: 7
 published: true
 ---
 
-# Project & 3rd Party Link 추가  
+# Project & 3rd Party Link   
 - Project와 3rd party로 연결되는 link를 추가할 수 있습니다.  
 - Link 클릭 시, 새 창에서 "Share URL" 링크로 연결됩니다.  
 
