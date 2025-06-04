@@ -34,7 +34,7 @@ published: true
   <img src="../../images/project/status_bar/status_reopen_popup.png" width="400px" height="300px" class="styled-image">  
 <br><br><br>
 
-## Drop & Open 
+## Drop & Reopen 
 {: .left-bar-title }
 
 ### Drop
@@ -46,7 +46,7 @@ published: true
   <img src="../../images/project/status_bar/status_drop_reason.png" width="400px" height="300px" class="styled-image">  
  
 
-### Open
+### Reopen
 {: .specific-title }  
 - Project Status가 Drop인데, 다시 OSC Process를 진행해야 하는 경우 Project를 Open 할 수 있습니다.  
   1. Project Information 탭 우측 상단의 <img src="../../images/project/status_bar/status_reopen_icon2.png" width="50px" height="20px"> 버튼을 클릭합니다.  
