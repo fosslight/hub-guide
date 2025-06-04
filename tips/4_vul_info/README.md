@@ -17,7 +17,7 @@ Vulnerability 정보 수집, 알림, Score 표시 방법에 대한 내용입니�
 {: .left-bar-title }  
 - 기준 점수 이상인 Vulnerability Score가 최초로 등록되거나, 기준 점수 이상에서 기준 점수 미만으로 변경될 경우 알림 메일이 발송됩니다.
     - Identification이 Confirm된 Project에서 위 조건을 만족하는 OSS가 BOM에 포함된 경우 Project의 Creator, Edit Permission, Reviewer에게 Vulnerability Score 변경 내용이 발송됩니다.  
-    - 알림 메일을 더 이상 받고 싶지 않은 경우, [Project Information에서 Security Mail (Vulnerability) 항목을 Disable로 변경](https://fosslight.org/hub-guide-en/tips/4_vul_info/#security-mailvulnerability)할 수 있습니다.  
+    - 알림 메일을 더 이상 받고 싶지 않은 경우, [Project Information에서 Security Mail (Vulnerability) 항목을 Disable로 변경](https://fosslight.org/hub-guide/tips/4_vul_info/#security-mailvulnerability)할 수 있습니다.  
 <br><br><br>  
 
 ## Vulnerability Score 표시 방법  
