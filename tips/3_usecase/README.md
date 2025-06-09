@@ -11,14 +11,12 @@ Use case 별 프로젝트 생성 방법을 확인할 수 있습니다.
 {: .left-bar-title }  
 기존 모델과 유사한 소프트웨어를 사용하는 파생 모델의 OSC Process는, 
 완료된 이전 모델의 [프로젝트를 복사](https://fosslight.org/hub-guide/tips/2_project/2_using_project_info/#project-%EB%B3%B5%EC%82%AC)하여 효율적으로 진행할 수 있습니다.  
-<br><br><br>  
 
-## 베이스모델에 Open Source 일부 추가  
+### 베이스모델에 Open Source 일부 추가  
 {: .specific-title }  
-- 프로젝트 복사 시 **Identification Progress**를 선택하면 베이스 모델 프로젝트의 Open Source 목록이 복사됩니다. 이후 추가된 Open Source는 Identification 탭에서 입력합니다.  
-<br><br><br>   
+- 프로젝트 복사 시 **Identification Progress**를 선택하면 베이스 모델 프로젝트의 Open Source 목록이 복사됩니다. 이후 추가된 Open Source는 Identification 탭에서 입력합니다.    
 
-## OSS 사용 내역이 기존과 동일한 새로운 프로젝트  
+### OSS 사용 내역이 기존과 동일한 새로운 프로젝트  
 {: .specific-title }  
 [BOM Compare](https://fosslight.org/hub-guide/tips/2_project/2_using_project_info/#bom-compare)를 활용하면 최종 OSS 목록 동일 여부를 확인할 수 있습니다.<br>
 - **OSS 사용 내역과 공개 대상 소스코드가 동일한 경우**  
@@ -42,10 +40,9 @@ Use case 별 프로젝트 생성 방법을 확인할 수 있습니다.
     - 일반적인 프로젝트와 동일하게 Distribution 단계까지 진행하여 LG Open Source 사이트에 고지합니다.
 - 프로젝트 생성 시 옵션  
     - Distribution Type : B2B   
-    - Distribution Site : opensource.lge.com  
-<br><br><br>  
+    - Distribution Site : opensource.lge.com    
 
-## 고객사 납품 시 고객사명으로 제품이 배포되는 경우  
+### 고객사 납품 시 고객사명으로 제품이 배포되는 경우  
 {: .specific-title }      
 고객사에 OSS Package 및 OSS 고지문 전달 후, 고객사 요청으로 LG Open Source 사이트에 해당 파일이 게시되지 않아야 하는 경우입니다.  
 - OSC Process 수행 단계  
