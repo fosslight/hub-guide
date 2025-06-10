@@ -53,7 +53,7 @@ Restriction 내용은 [OSORI](https://osori-db.github.io/docs/guide/) 프로젝�
             <th scope="col">항목</th>
             <th scope="col">설명</th>
             <th scope="col">&nbsp;LEVEL&nbsp;</th>
-            <th scope="col"><span style="white-space: nowrap;">신호등<br>제약사항)</span></th>
+            <th scope="col"><span style="white-space: nowrap;">신호등<br>(제약사항)</span></th>
         </tr>
     </thead>
     <tbody>
@@ -272,7 +272,7 @@ License 별 배포 시 Source Code 공개 범위를 선택합니다.
 
 ### Obligation
 {: .specific-title} 
-License별로 고지와 소스코드 공개 의무사항을 알 수 있습니다.
+License별로 고지 및 소스코드 공개 의무사항을 알 수 있습니다.
 - **Notice**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
   Copyright나 License (혹은 둘 다)에 대한 고지의 의무가 있음을 의미합니다.
 - **Source**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
