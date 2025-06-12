@@ -28,7 +28,7 @@ published: true
 
 ##  Binary DB에 Data Insert 과정
 {: .left-bar-title } 
-- 3rd Party, Project의 Identification 단계 Confirm 시, Identification > BIN, BIN(Andoird\|Yocto), 3rd Party에 기재한 Binary 정보들은 Binary DB에 저장(insert) 되는데, [FOSSLight Binary Scanner v4.1.30](https://github.com/fosslight/fosslight_binary_scanner/) 이후 버전 사용시에만 적용됩니다.    
+- 3rd Party, Project의 Identification 단계 Confirm 시, Identification > BIN, BIN(Android\|Yocto), 3rd Party에 기재한 Binary 정보들은 Binary DB에 저장(insert) 되는데, [FOSSLight Binary Scanner v4.1.30](https://github.com/fosslight/fosslight_binary_scanner/) 이후 버전 사용시에만 적용됩니다.    
 <div style="margin-left: 50px; margin-top: -15px;">
   <details style="margin-top: 0px;">
     <summary style="font-weight: bold; color: #0056b3;">Data Insert 시, 상세 내용</summary>
