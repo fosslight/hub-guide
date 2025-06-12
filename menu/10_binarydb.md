@@ -8,27 +8,27 @@ published: true
 
 ## Binary 분석 자동화 방법
 {: .left-bar-title }  
-- **Binary 분석 결과(FOSSLight Report)**를 Upload한 후 Save 버튼을 클릭하면, Binary DB와 비교하여 동일하거나 유사한 Binary의 OSS Name, License 등의 정보를 자동으로 채워줍니다.  
+- **Binary 분석 결과(FOSSLight Report)**를 Upload한 후 Save 버튼을 클릭하면, Binary DB와 비교하여 동일하거나 유사한 Binary의 OSS Name, OSS Version, License 등의 정보를 자동으로 채워줍니다.  
     - 적용 메뉴 
         - **Project > Identification > [BIN](https://fosslight.org/hub-guide/tutorial/1_project/2_Identification/4_BIN_Tab.html), BIN(Android\|Yocto) tab** 
         - **3rd Party > Identification > 3rd party tab**
-    - [FOSSLight Binary Scanner v4.1.30](https://github.com/fosslight/fosslight_binary_scanner/)이후 버전 사용 시, FOSSLight Report의 Binary Sheet에서 TLSH, Checksum 값 확인이 가능하여 binary.txt 파일을 첨부할 필요가 없습니다.    
- ![binarytxt](images/11_upload_binary_txt.PNG){: .styled-image}<br>  
+    - Binary DB 축적을 위하여 [FOSSLight Binary Scanner v4.1.30](https://github.com/fosslight/fosslight_binary_scanner/) 이후 버전 사용을 권장합니다.   
+    ![binarytxt](images/11_upload_binary_txt.PNG){: .styled-image}<br>  
 
-- Binary Name 하단에서는 Binary DB내의 Binary와 동일(또는 유사)한지 여부에 대한 정보를 Warning message로 보여줍니다.    
+- Binary Name 하단에서는 Binary DB 내의 Binary와 동일(또는 유사)한지 여부에 대한 정보를 Warning message로 보여줍니다.    
     - Warning Message 상세 내용은, [OSS Table Warning Message](https://fosslight.org/hub-guide/tips/1_common/5_warning_message/#bin-binandroid-tab)을 참고하시기 바랍니다.
 ![binaryafterupload](images/11_after_upload.PNG){: .styled-image}<br> 
   
 
 - **Binary DB 내 Binary와 일치 여부 확인 방법**
-    - Binary DB내의 Binary와 일치하는지 여부는 다음 두 가지 data를 통해 확인합니다.  
+    - Binary DB 내의 Binary와 일치하는지 여부는 다음 두 가지 data를 통해 확인합니다.  
         1. Binary 이름과 checksum 값이 일치하면 동일한 것으로 간주합니다.   
         2. 또는, Binary 이름이 동일하고 두 Binary간의 [TLSH(Trend Micro Locality Sensitive Hash)](https://github.com/trendmicro/tlsh) distance가 120이하면 유사한 것으로 간주합니다.   
 <br><br><br>
 
 ##  Binary DB에 Data Insert 과정
 {: .left-bar-title } 
-- 3rd Party, Project의 Identification 단계 Confirm 시, Identification > BIN, BIN(Andoird\|Yocto), 3rd Party에 기재한 Binary 정보들은 Binary DB에 저장(insert)됩니다.  
+- 3rd Party, Project의 Identification 단계 Confirm 시, Identification > BIN, BIN(Andoird\|Yocto), 3rd Party에 기재한 Binary 정보들은 Binary DB에 저장(insert) 되는데, [FOSSLight Binary Scanner v4.1.30](https://github.com/fosslight/fosslight_binary_scanner/) 이후 버전 사용시에만 적용됩니다.    
 <div style="margin-left: 50px; margin-top: -15px;">
   <details style="margin-top: 0px;">
     <summary style="font-weight: bold; color: #0056b3;">Data Insert 시, 상세 내용</summary>
@@ -40,7 +40,6 @@ published: true
   </details>
 </div>
 
-- 단, Binary 분석결과 (binary.txt 또는 result.txt)가 upload 된 경우에 한하여 동작합니다. (FOSSLight Binary Scanner v4.1.30 버전 이하인 경우) 
 - 동일한 Binary이지만 OSS 정보가 다를 경우, 기존 정보를 삭제한 후 신규 정보로 업데이트합니다.  
 - 비슷한 Binary의 경우, 기존 OSS 정보는 유지하고 신규 OSS 정보를 추가 업데이트합니다.  
 <div style="margin-left: 50px; margin-top: -15px;">
