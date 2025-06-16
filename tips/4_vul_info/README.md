@@ -10,13 +10,17 @@ Vulnerability 정보 수집, 알림, Score 표시 방법에 대한 내용입니�
 ## Vulnerability 정보 수집  
 {: .left-bar-title }  
 - Vulnerability 정보는 매일 [NVD Data Feed](https://nvd.nist.gov/vuln/data-feeds) 에서 다운로드되어 FOSSLight Hub에 저장됩니다.
-- FOSSLight Hub의 Vulnerability Score는 기본적으로 CVSS v3 Base Score를 기준으로 표기하며, v3 Score가 없는 경우 CVSS v2 Base Score로 대신 표기합니다.  
+- FOSSLight Hub의 Vulnerability Score는 기본적으로 CVSS v4.0 Base Score를 기준으로 표기합니다.  다음의 우선순위를 적용하여 수집합니다.  
+    1. CVSS v4.0
+    2. CVSS v3.1
+    3. CVSS v3.0
+    4. CVSS v2.0 
 <br><br><br>  
 
 ## Vulnerability 정보 알림  
 {: .left-bar-title }  
-- 기준 점수 이상인 Vulnerability Score가 최초로 등록되거나, 기준 점수 이상에서 기준 점수 미만으로 변경될 경우 알림 메일이 발송됩니다.
-    - Identification이 Confirm된 Project에서 위 조건을 만족하는 OSS가 BOM에 포함된 경우 Project의 Creator, Edit Permission, Reviewer에게 Vulnerability Score 변경 내용이 발송됩니다.  
+- CVSS Score 7.0 이상인 CVE ID가 발견되거나, OSS의 Max CVSS Score가 7.0 이상에서 7.0 미만으로 변경될 경우 알림 메일이 발송됩니다.  
+    - Identification이 Confirm된 Project에서 위 조건을 만족하는 OSS가 BOM에 포함된 경우 Project의 Creator, Edit 권한이 있는 사용자, Reviewer에게 Vulnerability Score 변경 내용이 발송됩니다.  
     - 알림 메일을 더 이상 받고 싶지 않은 경우, [Project Information에서 Security Mail (Vulnerability) 항목을 Disable로 변경](https://fosslight.org/hub-guide/tips/4_vul_info/#security-mailvulnerability)할 수 있습니다.  
 <br><br><br>  
 
