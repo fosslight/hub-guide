@@ -99,15 +99,9 @@ OSS의 Vulnerability Data 변경 사항을 확인합니다.
         - Provider URL : LDAP 서버 정보를 ldap://&lt;AD_SERVER_IP&gt;:&lt;LDAP_PORT&gt; 형식으로 설정합니다. (javax.naming.Context.PROVIDER_URL)  
 
 - **Notice Setting**   
-    - **Notice Type**: 발급 가능한 OSS 고지문 형식을 설정합니다.  
+    - **Notice Type**: 발급 가능한 OSS 고지문 형식을 설정합니다.      
 
-- **SMTP Setting**    
-    - **Mail Server** : SMTP Host (ex, smtp.gmail.com )    
-    - **Email Address** : 발송자 이메일 주소(ex, no-reply@fosslight.org )  
-    - **Port** : SMTP Port 번호 (ex, 25 또는 587)  
-    - **Encoding** : Default UTF-8 (필요한 경우에만 변경)  
-    - **Username** : SMTP 사용자명 (일반적으로는 발송자 이메일 주소와 동일)  
-    - **Password** : SMTP 사용자 패스워드 (패스워드는 암호화되어 저장되며, 공백인 경우 기존 패스워드를 변경하지 않습니다.)  
-
-- **Workspace Path Setting**  
-    - **Root Path** : 업/다운로드 파일 저장소의 최상위 workspace 경로를 설정합니다.    
+- **External Analysis Setting**  
+    - Self-Check 메뉴에서 Upload URL을 통해 Source Code를 분석할 때 연동되는 FOSSLight Scanner Service 정보를 설정합니다.      
+        - **FL Scanner Url** : 분석 연동할 FOSSLight Scanner Service 서버의 URL을 입력합니다.   
+        - **Admin Token** : Admin 권한이 있는 계정의 token을 입력합니다. 이 token 값은 FOSSLight Scanner Service에 세팅한 token값과 동일해야 합니다.     
