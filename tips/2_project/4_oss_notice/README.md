@@ -40,15 +40,18 @@ published: true
         - Simple HTML과 동일하나 파일 형식이 text인 OSS 고지문입니다.
         - Example: [OSS Notice Simple Text](../../oss_notice_format/simple_OSSNotice-4022_Sample%20Project_2021_20211230211012.txt)
     - SPDX(fileformat)
-        - SPDX의 다양한 파일 형식으로 출력하는 OSS 고지문입니다.  
-        - Example: 
-            - [OSS Notice SPDX (SpreadSheet)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.xls)
-            - [OSS Notice SPDX (RDF)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.rdf)
-            - [OSS Notice SPDX (TAG)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.tag) 
-            - [OSS Notice SPDX (JSON)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.json)
-            - [OSS Notice SPDX (YAML)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.yaml)
-            - [OSS Notice CycloneDX (JSON)](../../oss_notice_format/CycloneDX-testproject.json)
-            - [OSS Notice CycloneDX (XML)](../../oss_notice_format/CycloneDX-testproject.xml)
+        - SPDX의 다양한 파일 형식으로 출력하는 OSS 고지문입니다.    
+        - Example:   
+            - [OSS Notice SPDX (SpreadSheet)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.xls)  
+            - [OSS Notice SPDX (RDF)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.rdf)  
+            - [OSS Notice SPDX (TAG)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.tag)   
+            - [OSS Notice SPDX (JSON)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.json)  
+            - [OSS Notice SPDX (YAML)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.yaml)  
+    - CycloneDX(fileformat)
+        - CycloneDX의 다양한 파일 형식으로 출력하는 OSS 고지문입니다.    
+        - Example:   
+            - [OSS Notice CycloneDX (JSON)](../../oss_notice_format/CycloneDX-testproject.json)  
+            - [OSS Notice CycloneDX (XML)](../../oss_notice_format/CycloneDX-testproject.xml)  
 <br><br><br>
 
 ## 다른 고지문 포맷으로 발급하는 방법
