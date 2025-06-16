@@ -39,27 +39,16 @@ published: true
     - Simple Text
         - Simple HTML과 동일하나 파일 형식이 text인 OSS 고지문입니다.
         - Example: [OSS Notice Simple Text](../../oss_notice_format/simple_OSSNotice-4022_Sample%20Project_2021_20211230211012.txt)
-    - SPDX(SpreadSheet)
-        - SPDX(SpreadSheet)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
-        - Example: [OSS Notice SPDX (SpreadSheet)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.xls)
-    - SPDX(RDF)
-        - SPDX(RDF)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
-        - Example: [OSS Notice SPDX (RDF)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.rdf)
-    - SPDX(TAG)
-        - SPDX(TAG)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
-        - Example: [OSS Notice SPDX (TAG)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.tag) 
-    - SPDX(JSON)
-        - SPDX(JSON)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
-        - Example: [OSS Notice SPDX (JSON)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.json)
-    - SPDX(YAML)
-        - SPDX(YAML)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
-        - Example: [OSS Notice SPDX (YAML)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.yaml)
-    - CycloneDX(JSON)
-        - CycloneDX(JSON)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
-        - Example: [OSS Notice CycloneDX (JSON)](../../oss_notice_format/CycloneDX-testproject.json)
-    - CycloneDX(XML)
-        - CycloneDX(XML)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
-        - Example: [OSS Notice CycloneDX (XML)](../../oss_notice_format/CycloneDX-testproject.xml)
+    - SPDX(fileformat)
+        - SPDX의 다양한 파일 형식으로 출력하는 OSS 고지문입니다.  
+        - Example: 
+            - [OSS Notice SPDX (SpreadSheet)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.xls)
+            - [OSS Notice SPDX (RDF)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.rdf)
+            - [OSS Notice SPDX (TAG)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.tag) 
+            - [OSS Notice SPDX (JSON)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.json)
+            - [OSS Notice SPDX (YAML)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.yaml)
+            - [OSS Notice CycloneDX (JSON)](../../oss_notice_format/CycloneDX-testproject.json)
+            - [OSS Notice CycloneDX (XML)](../../oss_notice_format/CycloneDX-testproject.xml)
 <br><br><br>
 
 ## 다른 고지문 포맷으로 발급하는 방법
