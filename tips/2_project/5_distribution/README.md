@@ -24,7 +24,7 @@ published: true
    ![DistPackagingDelete](../../images/project/distribution/dist_packaging_delete.png){: .styled-image }  
 3. Upload 버튼을 클릭하여 변경할 OSS Package 파일을 업로드하고, 'Updated'가 표시되면서 정상적으로 업로드된 것을 확인한 뒤, Start to Verify 버튼을 클릭합니다.  
    ![DistPackagingStartVerify](../../images/project/distribution/dist_packaging_start_verify.png){: .styled-image }  
-4. 정상적으로 verify 성공한 경우, 다음과 같이 Completed로 버튼이 변경되는 것을 확인합니다.   
+4. 정상적으로 verify 성공한 경우, 다음과 같이 Complete로 버튼이 변경되는 것을 확인합니다.   
    ![DistPackagingComplete](../../images/project/distribution/dist_packaging_complete.png){: .styled-image }  
    - Verify 실패한 경우 재시도 할 것인지 팝업이 나타납니다.  
    - 계속 실패한다면, 업로드한 파일이 기존 Packaging탭에서 작성한 Path 정보와 일치하는지 다시 확인합니다.  
