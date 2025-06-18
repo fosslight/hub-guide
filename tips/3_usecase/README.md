@@ -65,7 +65,9 @@ Use case 별 프로젝트 생성 방법을 확인할 수 있습니다.
     ![DistTypeInCompany](../images/usecase/dist_type/distribution_type.png){: .styled-image }  
         - Transfer-in-house (사내이관): 타 부서에 오픈소스 목록 및 OSS Package를 전달해야 하는 경우  
         - Preceding (선행개발) : 선행개발이지만 추후 프로젝트 배포 가능성이 있는 경우  
-        - In-house only (사내사용) : 사내에서만 사용하는 경우   
+        - In-house only (사내사용) : 사내에서만 사용하는 경우
+    - OSS Notice
+        - Distribution Type이 해당 조건일 경우, OSS Notice가 N/A로 설정됩니다. 'OSS Notice'가 필요한 경우에는 OSS Notice 옵션을 직접 선택하시기 바랍니다.
 - OSC Process 수행 단계
     - 소스코드 공개 의무가 있는 오픈소스 사용 시  
         - **Packaging 단계**까지 진행합니다.  

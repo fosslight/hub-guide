@@ -4,22 +4,27 @@ published: true
 ---
 
 # BOM Tab
-<div class="note">
-3rd Party, SRC, BIN 탭에 작성된 OSS 목록을 취합하고 리뷰 요청을 합니다.
-</div>
+3rd Party, DEP, SRC, BIN 탭에 작성된 OSS 목록을 취합하고 리뷰 요청을 합니다.  
 
-## Review 요청 방법
-{: .left-bar-title }
+
+## Review 요청 방법  
+{: .left-bar-title }  
+
+### YouTube Guide  
+{: .specific-title}  
 <div class="youtube-container">
     <iframe src="https://www.youtube.com/embed/ErqmgN-YgD0" title="BOM 탭(SBOM 다운로드)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-![prj](images/5_bom_tap.png){: .styled-image}
-1. Merge And Save 버튼을 클릭합니다.
-    - 3rd Party, SRC, BIN 탭에 작성한 OSS List를 취합합니다.
-2. [**Warning message 검토**](https://fosslight.org/hub-guide/tips/1_common/5_warning_message)을 확인합니다.
-3. Request 버튼을 클릭하여 리뷰 요청을 합니다.
-    - 단, 빨간색 Warning Message가 있을 경우 리뷰 요청이 불가합니다.
+### Review 요청 절차     
+{: .specific-title}  
+1. Merge And Save 버튼을 클릭합니다.  
+    - 3rd Party, SRC, BIN 탭에 작성한 OSS List를 취합합니다.  
+2. [**Warning message 검토**](https://fosslight.org/hub-guide/tips/1_common/5_warning_message)을 확인합니다.  
+3. Request 버튼을 클릭하여 리뷰 요청을 합니다.  
+    - 단, 빨간색 Warning Message가 있을 경우 리뷰 요청이 불가합니다.  
+![prj](images/5_bom_tap.png){: .styled-image}  
+
 
 ### (Admin only) Review 방법
 {: .specific-title} 
@@ -27,6 +32,7 @@ published: true
 2. Warning message별 검토 사항을 확인합니다.
 3. **Save** 클릭 후 Confirm을 클릭하면 Packaging 탭이 활성화됩니다. 
     - Creator에게 재확인이 필요한 경우 **Reject**을 클릭하여 Status를 Progress로 변경합니다.
+<br><br><br>
 
 ## OSS Table 설명
 {: .left-bar-title }
@@ -41,10 +47,12 @@ published: true
     - OSS Name, OSS Version에 포함되지 않은 License도 표기 가능합니다. 
     - OSS Name을 nickname으로 작성할 수 있습니다.
     - OSS Name, OSS Version에 대하여 OSC system에 저장된 Copyright text, Download location, Homepage 의 정보 대신 해당 Row에 작성된 정보로 OSS Notice에 포함됩니다.
+<br><br><br>
 
 ## Confirm 시점 BOM data 변경 
 {: .left-bar-title }
 Identification 단계가 confirm되고 나면, bom tab의 download location, homepage, copyright의 정보가 OSS DB에 저장된 값으로 변경되며, 이를 기반으로 생성된 report를 다운로드 할 수 있습니다.
+<br><br><br>
 
 ## Export
 {: .left-bar-title }
