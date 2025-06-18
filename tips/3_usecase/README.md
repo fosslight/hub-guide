@@ -59,7 +59,7 @@ Use case 별 프로젝트 생성 방법을 확인할 수 있습니다.
 
 ## 사내이관 / 선행개발 / 사내사용 프로젝트  
 {: .left-bar-title }  
-사내이관 / 선행개발 / 사내사용의 경우, 배포 및 고지문 발급 없이 OSC Process가 종료됩니다. OSS Notice가 필요한 경우 Project Information에서 'OSS Notice' 옵션을 선택합니다.  
+사내이관 / 선행개발 / 사내사용의 경우, 배포 및 고지문 발급 없이 OSC Process가 종료됩니다.  
 - 프로젝트 생성 시 옵션  
     - Distribution Type  
     ![DistTypeInCompany](../images/usecase/dist_type/distribution_type.png){: .styled-image }  
