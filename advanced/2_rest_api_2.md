@@ -591,7 +591,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><span class="highlight"><span style="color: red;">(enterprise only)</span>POST /api/v2/compliance/3rdparty-status</span></td>
+            <td><span class="highlight"><span style="color: red;">(LGE only)</span>POST /api/v2/compliance/3rdparty-status</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Compliance Status > 3rd Party Status 검색 기능으로 3rd Party 생성 날짜와 Division으로 조회합니다.<br><br>
@@ -603,7 +603,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight"><span style="color: red;">(enterprise only)</span>POST /api/v2/compliance/product-status</span></td>
+            <td><span class="highlight"><span style="color: red;">(LGE only)</span>POST /api/v2/compliance/product-status</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Compliance Status > Product Status 검색 기능으로 Project 생성 날짜, Model release date와 Division으로 조회합니다.<br><br>
