@@ -199,6 +199,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
                     <li><strong class="highlight-black">creator</strong>: 생성한 사람 정보 기준으로 조회</li>
                     <li><strong class="highlight-black">division</strong>: division 정보 기준으로 조회</li>
                     <li><strong class="highlight-black">modelName</strong>: model 이름 기준으로 조회</li>
+                    <li><strong class="highlight-black">modelNameExactYn</strong>: true로 설정하면 model name에 입력한 값과 정확히 일치하는 프로젝트만 조회</li>
                     <li><strong class="highlight-black">prjIdList</strong>: project ID 기준으로 조회. list형태로 여러개 입력 가능</li>
                     <li><strong class="highlight-black">prjName</strong>: project 이름 기준으로 조회</li>
                     <li><strong class="highlight-black">prjNameExactYn</strong>: true로 설정하면 project name에 입력한 값과 정확히 일치하는 프로젝트만 조회</li>
@@ -340,6 +341,30 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
                     <li><strong class="highlight-black">packageFile</strong>: 업로드할 패키지 파일</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
                     <li><strong class="highlight-black">verifyFlag</strong>: 업로드 한 파일에 대해 verify 진행 여부 (default = N)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr style="background-color: white;">
+            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/setSecurityMailUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></a></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
+            <td>
+                해당 프로젝트에 대한 Vulnerability 메일 수신 여부를 업데이트 합니다.<br><br>
+                <ul class="description-list">
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> secMailYn</strong>: Security Enable (Y: Enable, N: Disable)</li>
+                    <li><strong class="highlight-black">secMailDesc</strong>: Disable로 설정하는 사유 (secMailYn이 N일때 필수 입력)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr style="background-color: white;">
+            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/addSecurityPersonUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/security-person</span></a></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
+            <td>
+                <br>Creator, Editor와 함께 FOSSLight Hub에서 발송되는 Security 메일을 받을 사람을 업데이트 합니다.<br>
+                (LGE Only) PSMS에서 생성되는 이슈의 assignee를 업데이트 합니다.<br><br>
+                <ul class="description-list">
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> userId</strong>: 대상 담당자 ID (FOSSLight Hub에 등록된 사람에 한하여 입력 가능함)</li>
                 </ul>
             </td>
         </tr>
@@ -499,6 +524,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
                 Self-Check에 Open Source 분석된 리포트 파일을 업로드함<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black">ossReport</strong>: 업로드할 리포트 파일</li>
+                    <li><strong class="highlight-black">bomSave</strong>: BOM탭 Save 여부</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 self check project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: 파일 업로드 시, 기존 입력된 정보들을 Reset할지 여부. N - 기존 OSS Table에 입력된 사항을 유지한 채 append (default = Y)</li>
                     <li><strong class="highlight-black">sheetNames</strong>: 업로드할 리포트 파일에서 특정 sheet name을 업데이트 하고자 하는 경우 입력. 입력하지 않는 경우 기본으로 DEP, SRC, BIN prefix에 맞춰서 정보를 불러옴. ,로 구분하여 여러 Sheet를 입력 가능</li>
