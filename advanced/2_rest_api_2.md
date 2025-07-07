@@ -401,6 +401,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
                 Project에 Open Source 분석된 리포트 파일을 업로드함<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black">ossReport</strong>: 업로드할 리포트 파일</li>
+                    <li><strong class="highlight-black">bomSave</strong>: BOM탭 Save 여부</li>
                     <li><strong class="highlight-black">comment</strong>: 사용자 comment</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: 파일 업로드 시, 기존 입력된 정보들을 Reset할지 여부 (default = Y)</li>
@@ -524,7 +525,6 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
                 Self-Check에 Open Source 분석된 리포트 파일을 업로드함<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black">ossReport</strong>: 업로드할 리포트 파일</li>
-                    <li><strong class="highlight-black">bomSave</strong>: BOM탭 Save 여부</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 self check project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: 파일 업로드 시, 기존 입력된 정보들을 Reset할지 여부. N - 기존 OSS Table에 입력된 사항을 유지한 채 append (default = Y)</li>
                     <li><strong class="highlight-black">sheetNames</strong>: 업로드할 리포트 파일에서 특정 sheet name을 업데이트 하고자 하는 경우 입력. 입력하지 않는 경우 기본으로 DEP, SRC, BIN prefix에 맞춰서 정보를 불러옴. ,로 구분하여 여러 Sheet를 입력 가능</li>
