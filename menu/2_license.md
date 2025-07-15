@@ -312,3 +312,7 @@ License별로 고지 및 소스코드 공개 의무사항을 알 수 있습니�
 1. License List에서 삭제할 License Name을 클릭합니다.
 2. License 상세정보 탭에서 Comment란에 삭제 사유를 기입합니다.
 3. 우측 상단의 Delete 버튼을 클릭합니다.
+
+### License 공유
+{: .specific-title} 
+1. Share 버튼을 클릭하여 생성되는 URL을 통해 License를 공유할 수 있습니다.

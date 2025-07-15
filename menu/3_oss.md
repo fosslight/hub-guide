@@ -121,7 +121,7 @@ OSS List에서 OSS Name을 클릭합니다.
 ## (Admin Only) OSS 추가, 수정, 복사, 삭제, 일괄 변경
 {: .left-bar-title }
 OSS List에서 OSS Name을 클릭합니다.    
-Admin 인 경우에만 Editable하게 표시되며 Sync, Copy, Delete, Save 버튼이 표시됩니다.
+Admin 인 경우에만 Editable하게 표시되며 Share, Sync, Copy, Delete, Save 버튼이 표시됩니다.
 
 <details>
 <summary>OSS 상세정보(Admin)</summary>  
@@ -139,6 +139,10 @@ Admin 인 경우에만 Editable하게 표시되며 Sync, Copy, Delete, Save 버�
 ### OSS 수정
 {: .specific-title}
 - 정보를 수정한 후 우측 상단의 **Save** 버튼을 클릭합니다.
+
+### OSS 공유
+{: .specific-title}
+- **Share** 버튼을 클릭하여 생성되는 URL을 통해 OSS를 공유할 수 있습니다.
 
 ### OSS 복사
 {: .specific-title}
