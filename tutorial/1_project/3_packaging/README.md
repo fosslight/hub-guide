@@ -42,8 +42,10 @@ OSS Notice는 Identification > BOM 탭을 기준으로 자동 생성됩니다.
     - 수정 없이 OSS Notice를 발행하는 경우 선택합니다. 
 - Request to generate a modified OSS Notice. (Select this only in exceptional cases.)
     - OSS Notice의 포맷이나 Contents를 수정할 수 있습니다.
-    - OSS Notice에 File을 append 하여 내용을 추가할 수 있습니다. 
-
+        - Append : OSS Notice에 내용을 추가할 수 있습니다.
+            - Editor : 추가될 내용을 직접 기입합니다. 
+            - File Upload : 추가될 내용을 파일로 업로드 합니다. 
+        - OSS Notice File Format은 [OSS 고지문 종류](../../../tips/2_project/4_oss_notice/)에서 확인할 수 있습니다. 
 
 
 ## Review 요청
