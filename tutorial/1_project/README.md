@@ -17,7 +17,7 @@ published: true
 
 #### <a name="comment"></a> Comment 남기기
 {: .under-bar-title} 
-- Project에 Comment를 남기고 해당 Comment를 Reviewer, Watcher, Creator에게 메일로 발송할 수 있습니다.
+- Project에 Comment를 남기고 해당 Comment를 Reviewer, Edit Permssion 부여 대상자, Creator에게 메일로 발송할 수 있습니다.
 - 상세 가이드는 [Tips > Common > Comment](../../tips/1_common/4_comment)에서 확인하시기 바랍니다.
 
 #### <a name="warning"></a> OSS Table's Warning message 

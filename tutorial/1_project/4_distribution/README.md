@@ -24,5 +24,5 @@ Distribution을 수행하면 배포 사이트에 OSS 고지문 / OSS Package가 
 {: .left-bar-title }
 - 외부에 공개되는 사항으로 **Admin 권한의 계정을 가진 사용자**만 Distribution을 수행할 수 있습니다.
 - LG 전자 : Admin 계정은 사업부/연구소 내 OSC 담당자에게만 부여됩니다.
-    -  만약 Project Creator가 OSC 담당자가 아닌 경우, Project > Watcher에 조직의 OSC 담당자를 추가한 후, OSC 담당자에게 Distribution 단계 수행을 요청하시기 바랍니다.
+    -  만약 Project Creator가 OSC 담당자가 아닌 경우, Project > Edit Permission에 조직의 OSC 담당자를 추가한 후, OSC 담당자에게 Distribution 단계 수행을 요청하시기 바랍니다.
  

@@ -10,7 +10,7 @@ Source Code 분석 결과를 작성합니다.
 
 ## SRC 탭 작성 Process
 {: .left-bar-title }
-- Source Code 분석 대상 경우 : Source Code 분석 결과 작성 → [**Warning message 검토**](https://fosslight.org/hub-guide/tips/1_common/5_warning_message) → Save
+- Source Code 분석 대상 경우 : Source Code 분석 결과 작성([FOSSLight Source Scanner 사용](https://fosslight.org/fosslight-guide/scanner/2_source.html)) → [**Warning message 검토**](https://fosslight.org/hub-guide/tips/1_common/5_warning_message) → Save
 - Source Code 분석 대상이 아닌 경우 : Not Applicable 체크 → Save
     - Source code 분석을 하지 않는 Project인 경우 선택합니다. (ex - 3rd Party로부터 전달 받은 Binary만 제품에 탑재하여 배포하는 경우)
 
