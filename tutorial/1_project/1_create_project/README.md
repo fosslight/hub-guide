@@ -7,7 +7,7 @@ title: 1.Create a project
 # Create a project
 배포하는 Software에 대하여 Project를 생성합니다.
 
-## YouTube 영상 가이드
+## YouTube 가이드
 {: .left-bar-title}  
 <div class="youtube-container">
 <iframe src="https://www.youtube.com/embed/IUrQyj3s-Ps" title="FOSSLight Hub - 프로젝트 생성" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -88,7 +88,7 @@ Project에 대한 기본 정보를 입력하는 페이지입니다.
                 <ul class="description-list">
                     <li>지정 가능한 대상은 FOSSLight Hub에 등록된 사용자에 한합니다.</li>
                     <li>지정된 보안 담당자는 보안 관련 Jira 이슈의 Assignee로 설정되며, FOSSLight Hub에서 발송되는 보안 관련 이메일도 함께 수신하게 됩니다.</li>
-                    <li>별도로 보안 담당자를 지정하지 않을 경우, 해당 이슈의 Creator가 보안 담당자로 지정됩니다.</li>
+                    <li>별도로 보안 담당자를 지정하지 않을 경우, 프로젝트 Creator가 보안 담당자로 지정됩니다.</li>
                 </ul>
             </td>
         </tr>
@@ -108,7 +108,7 @@ Project에 대한 기본 정보를 입력하는 페이지입니다.
                     <li><strong>Transfer in-house</strong>: 사내 이관하는 경우</li>
                     <li><strong>B2B</strong>: 타사로 제공하는 경우</li>
                     <li><strong>Preceding Software / In-house only</strong>: 선행 개발 또는 사내용 Software로 배포가 예정되지 않은 경우</li>
-                    <li><strong>Self-Check</strong>: 외부 배포 목적이 아닌 내부 검토 및 사전 점검하는 경우</li>
+                    <li><strong>Self-Check</strong>: 배포 목적이 아닌 내부 검토 및 사전 점검하는 경우</li>
                 </ul>
             </td>
         </tr>
