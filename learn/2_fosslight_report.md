@@ -14,7 +14,7 @@
 
 ### 3rd Party Sheet  
 {: .specific-title}   
-- 배포하는 Project에 3rd Party로부터 제공받은 Software가 포함되어 있는 경우, 해당 3rd party로부터 OSS Checklist를 입수하여 사용된 Open Source 현황을 파악해야 합니다. (참고 : [3rd Party OSS Checklist](https://raw.githubusercontent.com/fosslight/fosslight/develop/src/main/resources/static/sample/LGE-OSS-Checklist-for-3rdParty_Kor_2.0.xlsx))     
+- 배포하는 Project에 3rd Party로부터 제공받은 Software가 포함되어 있는 경우, 해당 3rd party로부터 OSS Checklist를 입수하여 사용된 Open Source 현황을 파악해야 합니다.  
 - 파악된 Open Source 정보는 FOSSLight Hub의 [3rd Party](../menu/5_third-party.md) 메뉴에 등록하며, 해당 정보는 Project > Identification > [3rd Party 탭](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md)에서 취합됩니다.     
 - FOSSLight Hub > Project > Identification에서 FOSSLight Report를 Export하면, [3rd Party 탭](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md)에 등록된 정보가 자동으로 "3rd party" sheet에 채워집니다. 따라서, "3rd party" sheet는 임의로 작성하지 않습니다.      
 ![3rd_Party](./images/3rd_party.png)  
@@ -57,7 +57,7 @@
 
 ## Sheet 내용 작성
 {: .left-bar-title }  
-FOSSLight Scanner를 이용하여 sheet가 자동으로 생성되지만, 누락되거나 부정확한 정보에 대해서는 직접 확인하고 보완해야 합니다.  
+[FOSSLight Scanner](https://fosslight.org/fosslight-guide/scanner/)를 이용하면 DEP,SRC,BIN Sheet를 동시에 자동으로 생성할 수 있습니다. 단, 누락되거나 부정확한 정보가 있을 수 있으므로 반드시 직접 확인하고 필요한 내용을 보완해야 합니다.  
 
 ### 공통 
 {: .specific-title}  
@@ -90,8 +90,8 @@ FOSSLight Scanner를 이용하여 sheet가 자동으로 생성되지만, 누락�
     <tr>
       <td style="padding: 12px;">License</td>
       <td style="padding: 12px;">
-        • 하나의 Open Source에 여러 License가 적용된 경우, OSS License를 콤마(",")로 구분하여 작성합니다.<br>
-        • Open Source를 전혀 사용하지 않은 경우, OSS License는  
+        • 하나의 Open Source에 여러 License가 적용된 경우, License를 콤마(",")로 구분하여 작성합니다.<br>
+        • Open Source를 전혀 사용하지 않은 경우, License는  
         "LGE Proprietary License"로 작성하되, 3rd Party가 자체 개발한 경우에는 "Other Proprietary License"로 작성합니다.
       </td>
     </tr>
@@ -109,7 +109,7 @@ FOSSLight Scanner를 이용하여 sheet가 자동으로 생성되지만, 누락�
     </tr>
     <tr>
       <td style="padding: 12px;">License Text</td>
-      <td style="padding: 12px;">• FOSSLight Hub에 등록되지 않은 OSS License인 경우, License 원문을 알 수 있는 Link 또는 License text를 작성합니다.</td>
+      <td style="padding: 12px;">• FOSSLight Hub에 등록되지 않은 License인 경우, License 원문을 알 수 있는 Link 또는 License text를 작성합니다.</td>
     </tr>
     <tr>
       <td style="padding: 12px;">Exclude</td>
