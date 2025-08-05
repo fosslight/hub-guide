@@ -213,7 +213,7 @@
 
 #### BIN(Android) sheet
 - **Source Path** : Binary의 Source Code 경로를 작성합니다. Source Path 확인이 어려운 경우에는, Comment란에 사유를 작성합니다.  
-- **NOTICE** : [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/scanner/6_android.html) 결과(result.txt)를 따르며, 임의로 수정하지 않습니다.  
+- **NOTICE** : [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/scanner/6_android.html) 결과를 따르며, 임의로 수정하지 않습니다.  
 - 하나의 Binary에 여러 Open Source가 사용된 경우, Open Source 별로 별도의 행을 추가하여 작성합니다.   
 
 
