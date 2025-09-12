@@ -4,8 +4,8 @@ FOSSLight Hub의 기능을 REST API로 호출할 수 있습니다.
 
 ## 시작하기  
 {: .left-bar-title }
-REST API를 호출하기 위해서는 **TOKEN**을 발급이 필요합니다.   
-Token은 Admin 계정에서만 발급 가능하며, 일반 사용자는 Admin에게 발급 요청 후 사용하실 수 있습니다.  
+REST API를 호출하기 위해서는 **Token**을 발급이 필요합니다.   
+**Token**은 Admin 계정에서만 발급 가능하며, 일반 사용자는 Admin에게 발급 요청 후 사용하실 수 있습니다.  
 ### Admin
 {: .specific-title }  
 1. **Admin 계정**으로 로그인합니다.    
@@ -13,8 +13,8 @@ Token은 Admin 계정에서만 발급 가능하며, 일반 사용자는 Admin에
 
 ### 일반 사용자
 {: .specific-title }  
-1. Admin에게 Token 발급을 요청합니다.  
-2. 발급된 Token은 [User Settings](https://fosslight.org/hub-guide/tips/5_etc/1_user_settings.html)에서 확인할 수 있습니다.   
+1. Admin에게 **Token** 발급을 요청합니다.  
+2. 발급된 **Token**은 [User Settings](https://fosslight.org/hub-guide/tips/5_etc/1_user_settings.html)에서 확인할 수 있습니다.   
 
 <br><br><br>
 
