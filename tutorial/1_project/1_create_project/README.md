@@ -107,7 +107,8 @@ Project에 대한 기본 정보를 입력하는 페이지입니다.
                     <li><strong>General Model</strong>: 일반적인 Model / Software / Application이 배포되는 경우</li>
                     <li><strong>Transfer in-house</strong>: 사내 이관하는 경우</li>
                     <li><strong>B2B</strong>: 타사로 제공하는 경우</li>
-                    <li><strong>Preceding Software / In-house only</strong>: 선행 개발 또는 사내용 Software로 배포가 예정되지 않은 경우</li>
+                    <li><strong>Preceding</strong>: 배포 가능성이 있는 선행 개발</li>
+                    <li><strong>In-house only</strong>: 사내용 Software로 배포가 예정되지 않은 경우</li>
                     <li><strong>Self-Check</strong>: 배포 목적이 아닌 내부 검토 및 사전 점검하는 경우</li>
                 </ul>
             </td>
