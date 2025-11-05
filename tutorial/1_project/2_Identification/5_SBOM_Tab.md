@@ -3,7 +3,7 @@ sort: 5
 published: true
 ---
 
-# BOM Tab
+# SBOM Tab
 3rd Party, DEP, SRC, BIN 탭에 작성된 OSS 목록을 취합하고 리뷰 요청을 합니다.  
 
 
@@ -13,7 +13,7 @@ published: true
 ### YouTube Guide  
 {: .specific-title}  
 <div class="youtube-container">
-    <iframe src="https://www.youtube.com/embed/ErqmgN-YgD0" title="BOM 탭(SBOM 다운로드)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/ErqmgN-YgD0" title="SBOM 탭(SBOM 다운로드)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Review 요청 절차     
@@ -28,7 +28,7 @@ published: true
 
 ### (Admin only) Review 방법
 {: .specific-title} 
-1. BOM 탭 우측 상단 Review Start 버튼을 클릭합니다.
+1. SBOM 탭 우측 상단 Review Start 버튼을 클릭합니다.
 2. Warning message별 검토 사항을 확인합니다.
 3. **Save** 클릭 후 Confirm을 클릭하면 Packaging 탭이 활성화됩니다. 
     - Creator에게 재확인이 필요한 경우 **Reject**을 클릭하여 Status를 Progress로 변경합니다.
@@ -49,9 +49,9 @@ published: true
     - OSS Name, OSS Version에 대하여 OSC system에 저장된 Copyright text, Download location, Homepage 의 정보 대신 해당 Row에 작성된 정보로 OSS Notice에 포함됩니다.
 <br><br><br>
 
-## Confirm 시점 BOM data 변경 
+## Confirm 시점 SBOM data 변경 
 {: .left-bar-title }
-Identification 단계가 confirm되고 나면, bom tab의 download location, homepage, copyright의 정보가 OSS DB에 저장된 값으로 변경되며, 이를 기반으로 생성된 report를 다운로드 할 수 있습니다.
+Identification 단계가 confirm되고 나면, SBOM tab의 download location, homepage, copyright의 정보가 OSS DB에 저장된 값으로 변경되며, 이를 기반으로 생성된 report를 다운로드 할 수 있습니다.
 <br><br><br>
 
 ## Export
