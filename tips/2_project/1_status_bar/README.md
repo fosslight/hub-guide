@@ -16,7 +16,7 @@ published: true
 ## Self-Reject 
 {: .left-bar-title }  
 - Project Status가 <img src="../../images/project/status_bar/status_request_icon.png" width="60px" height="20px"> 인 상태에서 Identification과 Packaging 단계의 수정이 필요한 경우, 사용자는 Project Status를 변경할 수 있습니다.   
-  1. Identification(BOM), Packaging 단계에서 우측 상단의 <img src="../../images/project/status_bar/status_reject_icon.png" width="50px" height="20px"> 버튼을 클릭합니다.  
+  1. Identification(SBOM), Packaging 단계에서 우측 상단의 <img src="../../images/project/status_bar/status_reject_icon.png" width="50px" height="20px"> 버튼을 클릭합니다.  
   <img src="../../images/project/status_bar/status_identification_reject.png" width="600px" height="150px" class="styled-image">  
   <img src="../../images/project/status_bar/status_packaging_reject.png" width="600px" height="150px" class="styled-image">  
   2. 변경이 필요한 사유를 입력하고, OK 버튼을 클릭합니다. 이때 Project Status는 <img src="../../images/project/status_bar/status_progress_icon.png" width="60px" height="20px"> 상태로 변경됩니다.  
