@@ -5,9 +5,6 @@
 
 ## Contents
 
-### FOSSLight Hub 시작 가이드
-- [Quick Start](started/1_install.md)
-
 ### FOSSLight Hub 메뉴
 - [로그인 및 계정 등록](menu/1_sign.md)
 - [License 정보](menu/2_license.md)
