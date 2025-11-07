@@ -5,15 +5,15 @@ published: true
 
 # Project 활용법 
 
-## BOM Compare
+## SBOM Compare
 {: .left-bar-title }  
-- 두 Project의 BOM을 비교하는 기능으로, Project 간 add/change/delete 된 OSS 정보를 확인할 수 있습니다.  
-- **BOM Compare 방법**  
+- 두 Project의 SBOM을 비교하는 기능으로, Project 간 add/change/delete 된 OSS 정보를 확인할 수 있습니다.  
+- **SBOM Compare 방법**  
     1. Project 목록에서 비교할 Project 2개를 선택합니다.    
-    2. 'BOM Compare' 버튼을 클릭합니다.    
-   <img src="../../images/project/bom_compare/bom_compare_how.png" width="700px" height="250px" alt="BOMCompare" class="styled-image">  
-    3. BOM 목록을 비교하는 탭에서 before, after 프로젝트 간 차이를 확인할 수 있습니다.    
-   <img src="../../images/project/bom_compare/bom_compare_result.png" width="700px" height="300px" alt="BOMCompareReuslt" class="styled-image">  
+    2. 'SBOM Compare' 버튼을 클릭합니다.    
+   <img src="../../images/project/bom_compare/bom_compare_how.png" width="700px" height="250px" alt="SBOMCompare" class="styled-image">  
+    3. SBOM 목록을 비교하는 탭에서 before, after 프로젝트 간 차이를 확인할 수 있습니다.    
+   <img src="../../images/project/bom_compare/bom_compare_result.png" width="700px" height="300px" alt="SBOMCompareReuslt" class="styled-image">  
 <br><br><br>
 
 ## Project 복사   
