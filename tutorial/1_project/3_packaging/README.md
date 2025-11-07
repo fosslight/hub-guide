@@ -35,7 +35,7 @@ Packaging tab에서는 OSS Package 파일을 Upload하고 이를 Verify합니다
 
 ## Notice tab
 {: .left-bar-title }
-OSS Notice는 Identification > BOM 탭을 기준으로 자동 생성됩니다.
+OSS Notice는 Identification > SBOM 탭을 기준으로 자동 생성됩니다.
 ![prj](images/3_project_packaging_notice.PNG){: .styled-image}
 
 - Request to generate a default OSS Notice. (Select this in most cases.)

@@ -18,7 +18,7 @@ Use case 별 프로젝트 생성 방법을 확인할 수 있습니다.
 
 ### OSS 사용 내역이 기존과 동일한 새로운 프로젝트  
 {: .specific-title }  
-[BOM Compare](https://fosslight.org/hub-guide/tips/2_project/2_using_project_info/#bom-compare)를 활용하면 최종 OSS 목록 동일 여부를 확인할 수 있습니다.<br>
+[SBOM Compare](https://fosslight.org/hub-guide/tips/2_project/2_using_project_info/#sbom-compare)를 활용하면 최종 OSS 목록 동일 여부를 확인할 수 있습니다.<br>
 - **OSS 사용 내역과 공개 대상 소스코드가 동일한 경우**  
   - Packaging Confirm으로 프로젝트를 복사 후 Distribution을 수행하거나, 기존 프로젝트의 Distribution에서 Model을 추가합니다.     
 - **OSS 사용 내역은 동일하나, 공개 대상 소스코드가 다른 경우**
@@ -89,7 +89,7 @@ Network Service를 통해 외부 디바이스, 애플리케이션, 또는 사용
 
 
 - License 제약 사항 확인 방법 
-    - Identification > BOM의 Restriction 컬럼 또는 License 메뉴에서 검색하여 Restriction(Network Triggered)을 확인할 수 있습니다.  
+    - Identification > SBOM의 Restriction 컬럼 또는 License 메뉴에서 검색하여 Restriction(Network Triggered)을 확인할 수 있습니다.  
     **ex) AGPL-3.0:** <br/>
     ![AGPL-3.0Example](../images/usecase/dist_type/network_restriction.png){: .styled-image } 
 
