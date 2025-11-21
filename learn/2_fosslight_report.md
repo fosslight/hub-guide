@@ -48,11 +48,11 @@
    - Android Platform 및 Yocto 기반 모델(Phone, TV 등)의 경우, DEP / SRC / BIN sheet를 작성하지 않아도 됩니다.  
 
 
-### BOM Sheet
+### SBOM Sheet
 {: .specific-title}
-- BOM(Bill of Materials)은 FOSSLight Report에 작성된 각 Sheet의 Open Source 내역을 취합하여 생성됩니다.  
-- BOM은 FOSSLight Hub의 Project에서 Export한 FOSSLight Report에 자동으로 채워지므로 수동으로 작성하지 않습니다.  
-![BOM](./images/bom.png)
+- SBOM(Bill of Materials)은 FOSSLight Report에 작성된 각 Sheet의 Open Source 내역을 취합하여 생성됩니다.  
+- SBOM은 FOSSLight Hub의 Project에서 Export한 FOSSLight Report에 자동으로 채워지므로 수동으로 작성하지 않습니다.  
+![SBOM](./images/bom.png)
 
 
 ## Sheet 내용 작성
