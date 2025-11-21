@@ -160,7 +160,8 @@
             • Transfer in-house : 사내 이관하는 경우 선택<br>
             • B2B : B2B 모델일 경우 선택<br>
             • Preceding Software : 선행 개발을 위한 개발로서, 배포가 예정되지 않은 경우 선택<br>
-            • Self-Check : 외부 배포 목적이 아닌 내부 검토 및 사전 점검하는 경우 선택
+            • Self-Check : 외부 배포 목적이 아닌 내부 검토 및 사전 점검하는 경우 선택<br>
+            • Contribution : Open Source 공개 및 기여시 선택
           </div>
         </td>
       </tr>
