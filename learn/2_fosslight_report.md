@@ -1,7 +1,6 @@
 # FOSSLight Report  
 - FOSSLight Report는 FOSSLight Hub와 FOSSLight Scanner에서 사용되는 템플릿으로, 프로젝트별 Open Source 사용 현황을 파악하기 위해 작성되며, 'OSS 보고서'라는 용어로도 사용됩니다.  
-- 3.3 버전 : [Fosslight_Report.xlsx](https://github.com/fosslight/fosslight/raw/main/src/main/resources/template/ProjectReport.xlsx)
-
+- 3.4 버전 : [Fosslight_Report.xlsx](https://github.com/fosslight/fosslight/blob/develop/src/main/resources/template/ProjectReport.xlsx?raw=1)
 
 ## Sheet 구성 
 {: .left-bar-title }  

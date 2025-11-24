@@ -21,8 +21,7 @@ REST API를 호출하기 위해서는 **Token**을 발급이 필요합니다.
 
 ## REST API 종류  
 {: .left-bar-title }  
-API 동작 확인은 하기 링크에서 가능합니다.  
-- Demo 서비스용 : <a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://demo.fosslight.orgswagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="https://demo.fosslight.org/" target="_blank">https://demo.fosslight.org</a>)<br>  
+API 동작 확인은 하기 링크에서 가능합니다.    
 - 운영 서비스용(LGE Only) : <a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="http://osc.lge.com" target="_blank">http://osc.lge.com</a>) <br>
 - 테스트용(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)  
  
@@ -65,8 +64,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/getLicenseInfoUsingGET_1">
-            <span class="highlight">GET /api/v2/license</span></a></td>
+            <td><span class="highlight">GET /api/v2/license</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 License 정보를 조회합니다.<br><br>
@@ -79,7 +77,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/getOssInfoUsingGET_1"><span class="highlight">GET /api/v2/oss</span></a></td>
+            <td><span class="highlight">GET /api/v2/oss</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Open Source 정보를 조회합니다.<br><br>
@@ -95,7 +93,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;"> 
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/registerOssUsingPOST_1"><span class="highlight">POST /api/v2/oss</span></a></td>
+            <td><span class="highlight">POST /api/v2/oss</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                  <span style="color: red;">(Admin only)</span> Open Source를 등록합니다.<br><br>
@@ -105,7 +103,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/refineOssDownloadLocationUsingGET_1"><span class="highlight">GET /api/v2/refine-download-location</span></a></td>
+            <td><span class="highlight">GET /api/v2/refine-download-location</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 <span style="color: red;">(Admin only)</span> OSS 정보를 정제합니다.<br><br>
@@ -135,7 +133,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/getPartnersUsingGET"><span class="highlight">GET /api/v2/partners</span></a></td>
+            <td><span class="highlight">GET /api/v2/partners</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 3rd Party의 정보를 조회합니다.<br><br>
@@ -152,10 +150,10 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;"> 
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/get3rdDownloadUsingGET"><span class="highlight">GET /api/v2/partners/{id}/bom/file</span></a></td>
+            <td><span class="highlight">GET /api/v2/partners/{id}/sbom/file</span></td>
             <td style="text-align: center;"><span class="highlight">FILE</span></td>
             <td>
-                3rd party BOM export - 파일 형태로 다운로드<br><br>
+                3rd party SBOM export - 파일 형태로 다운로드<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> format</strong>: 추출할 파일 포맷</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 조회할 대상인 3rd party ID</li>
@@ -163,17 +161,17 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;"> 
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/get3rdAsJsonUsingGET"><span class="highlight">GET ​/api​/v2​/partners​/{id}​/bom/json-data</span></a></td>
+            <td><span class="highlight">GET ​/api​/v2​/partners​/{id}​/sbom/json-data</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
-                3rd party BOM export - JSON 형태로 받음<br><br>
+                3rd party SBOM export - JSON 형태로 받음<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 3rd party ID</li>
                 </ul>
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/addPrjEditorUsingPOST"><span class="highlight">POST /api/v2/partners/{id}/editors</span></a></td>
+            <td><span class="highlight">POST /api/v2/partners/{id}/editors</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 3rd party에 editor를 추가함<br><br>
@@ -186,7 +184,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </tbody>
 </table>
 
-###  3. Project 정보 조회, 생성, FOSSLight Report 등록, Packaging 파일 업로드, BOM Export, Project 비교  
+###  3. Project 정보 조회, 생성, FOSSLight Report 등록, Packaging 파일 업로드, SBOM Export, Project 비교  
 {: .specific-title }  
 
 <table>
@@ -199,7 +197,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/selectProjectListUsingGET_1"><span class="highlight">GET /api/v2/projects</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>  
             <td>
                 아래 항목을 포함한 Project의 정보를 조회합니다.<br><br>
@@ -220,7 +218,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/createProjectUsingPOST"><span class="highlight">POST /api/v2/projects</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project 생성을 위한 API. 생성된 project ID가 리턴됨<br><br>
@@ -242,7 +240,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/selectModelListUsingGET_1"><span class="highlight">GET /api/v2/projects/models</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/models</span></td>
             <td style="text-align: center;">><span class="highlight">JSON</span></td>
             <td>
                 Project의 모델 정보 조회<br><br>
@@ -252,7 +250,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/deleteProjectUsingDELETE"><span class="highlight">DELETE /api/v2/projects/{id}</span></a></td>
+            <td><span class="highlight">DELETE /api/v2/projects/{id}</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project를 삭제함 (Distribution 진행되지 않은 프로젝트만 삭제 가능)<br><br>
@@ -262,10 +260,10 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomCompareUsingGET_1"><span class="highlight">GET /api/v2/projects/{id}/bom/compare-with/{compareId}</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/sbom/compare-with/{compareId}</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
-                Project BOM Compare<br><br>
+                Project SBOM Compare<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> compareId</strong>: 비교할 project ID</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 기준 project ID</li>
@@ -273,30 +271,30 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomDownloadUsingGET"><span class="highlight">GET /api/v2/projects/{id}/bom/file</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/sbom/file</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
-                Project BOM export - 파일 형태로 다운로드<br><br>
+                Project SBOM export - 파일 형태로 다운로드<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> format</strong>: 추출할 파일 포맷</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
-                    <li><strong class="highlight-black"> saveFlag</strong>: API 실행 시점의 정보로, BOM을 최신화 할지 여부 선택 (default = Y)</li>
+                    <li><strong class="highlight-black"> saveFlag</strong>: API 실행 시점의 정보로, SBOM을 최신화 할지 여부 선택 (default = Y)</li>
                 </ul>
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomAsJsonUsingGET"><span class="highlight">GET /api/v2/projects/{id}/bom/json-data</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/sbom/json-data</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
-                Project BOM export - JSON 형태로 받음<br><br>
+                Project SBOM export - JSON 형태로 받음<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
-                    <li><strong class="highlight-black">saveFlag</strong>: API 실행 시점의 정보로, BOM을 최신화 할지 여부 선택 (default = Y)</li>
+                    <li><strong class="highlight-black">saveFlag</strong>: API 실행 시점의 정보로, SBOM을 최신화 할지 여부 선택 (default = Y)</li>
                 </ul>
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/addPrjEditorUsingPOST_1"><span class="highlight">POST /api/v2/projects/{id}/editors</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/editors</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project에 editor를 추가함<br><br>
@@ -307,7 +305,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/updateModelListUsingPOST_1"><span class="highlight">POST /api/v2/projects/{id}/models</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/models</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Model 정보 문자열 목록을 통해 Project의 Model 정보를 업데이트합니다.<br>
@@ -319,7 +317,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/updateModelListUploadFileUsingPOST_1"><span class="highlight">POST ​/api​/v2​/projects​/{id}​/models​/upload</span></a></td>
+            <td><span class="highlight">POST ​/api​/v2​/projects​/{id}​/models​/upload</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Model List 엑셀 파일을 통해 Project의 Model 정보를 업데이트합니다. <br>
@@ -332,7 +330,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getProjectNoticeUsingGET"><span class="highlight">GET /api/v2/projects/{id}/notice</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/notice</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Notice 파일을 받을 project ID<br><br>
@@ -342,7 +340,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossUploadPackageUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/packages</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/packages</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project에 package 파일 업로드<br><br>
@@ -354,7 +352,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/setSecurityMailUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 해당 프로젝트에 대한 Vulnerability 메일 수신 여부를 업데이트 합니다.<br><br>
@@ -366,7 +364,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/addSecurityPersonUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/security-person</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/security-person</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 <br>Creator, Editor와 함께 FOSSLight Hub에서 발송되는 Security 메일을 받을 사람을 업데이트 합니다.<br>
@@ -378,7 +376,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjSecurityExportJsonUsingGET_1"><span class="highlight">GET /api/v2/projects/{id}/security/json-data</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/security/json-data</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project에서 검출된 보안취약점 정보를 JSON 형태로 받음<br><br>
@@ -388,7 +386,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossLoadUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/oss-load</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/oss-load</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Project에 이전 프로젝트에서 리뷰된 Open Source 정보를 로드함 (Identification confirm 된 프로젝트만 로드 가능)<br><br>
@@ -404,13 +402,13 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossReportAllUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reports</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reports</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Project에 Open Source 분석된 리포트 파일을 업로드함<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black">ossReport</strong>: 업로드할 리포트 파일</li>
-                    <li><strong class="highlight-black">bomSave</strong>: BOM탭 Save 여부</li>
+                    <li><strong class="highlight-black">sbomSave</strong>: SBOM탭 Save 여부</li>
                     <li><strong class="highlight-black">comment</strong>: 사용자 comment</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: 파일 업로드 시, 기존 입력된 정보들을 Reset할지 여부 (default = Y)</li>
@@ -420,7 +418,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/identificationResetUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reset</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reset</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Project > Identification에서 선택한 탭을 reset함<br><br>
@@ -447,7 +445,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityMaxDataUsingGET_1"><span class="highlight">GET /api/v2/max-vulnerabilities</span></a></td>
+            <td><span class="highlight">GET /api/v2/max-vulnerabilities</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 OSS Name, Version별 max score와 CVE ID를 확인할 링크 조회<br><br>
@@ -458,7 +456,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityDataUsingGET_4"><span class="highlight">GET /api/v2/vulnerabilities</span></a></td>
+            <td><span class="highlight">GET /api/v2/vulnerabilities</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 CVE ID별 또는 OSS Name, Version별 CVE ID, CVSS Score, CVE ID Link, OSS 정보(OSS name, OSS version, Nickname)를 조회합니다.<br><br>
@@ -486,7 +484,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/createSelfCheckUsingPOST"><span class="highlight">POST /api/v2/selfchecks</span></a></td>
+            <td><span class="highlight">POST /api/v2/selfchecks</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Self-Check Project를 생성하고, 생성된 Self-Check ID를 return 받음<br><br>
@@ -497,7 +495,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/getSelfcheckUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}</span></a></td>
+            <td><span class="highlight">GET /api/v2/selfchecks/{id}</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Self-Check project 조회<br><br>
@@ -507,7 +505,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/selfCheckBomDownloadUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}/bom/file</span></a></td>
+            <td><span class="highlight">GET /api/v2/selfchecks/{id}/sbom/file</span></td>
             <td style="text-align: center;"><span class="highlight">FILE</span></td>
             <td>
                 Self-Check에서 Export한 결과 파일을 다운로드<br><br>
@@ -517,7 +515,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/addPrjEditorUsingPOST_2"><span class="highlight">POST /api/v2/selfchecks/{id}/editors</span></a></td>
+            <td><span class="highlight">POST /api/v2/selfchecks/{id}/editors</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Self-Check에 Editor를 추가<br><br>
@@ -528,7 +526,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/ossReportSelfCheckUsingPOST_1"><span class="highlight">POST /api/v2/selfchecks/{id}/report</span></a></td>
+            <td><span class="highlight">POST /api/v2/selfchecks/{id}/report</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Self-Check에 Open Source 분석된 리포트 파일을 업로드함<br><br>
@@ -556,7 +554,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/6.%20Code%20v2/getVulnerabilityDataUsingGET_3"><span class="highlight">GET /api/v2/codes</span></a></td>
+            <td><span class="highlight">GET /api/v2/codes</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project, 3rd Party 조회, Project 생성 시 사용할 Parameter의 값 List를 조회합니다.<br><br>
@@ -593,7 +591,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/7.%20Binary/getBinaryInfoUsingGET_1"><span class="highlight">GET /api/v2/binaries</span></a></td>
+            <td><span class="highlight">GET /api/v2/binaries</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Binary DB에서 하기 정보를 기준으로 조회합니다.<br><br>
