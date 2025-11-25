@@ -23,7 +23,8 @@ REST API를 호출하기 위해서는 **Token**을 발급이 필요합니다.
 {: .left-bar-title }  
 API 동작 확인은 하기 링크에서 가능합니다.    
 - 운영 서비스용(LGE Only) : <a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="http://osc.lge.com" target="_blank">http://osc.lge.com</a>) <br>
-- 테스트용(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)  
+- 테스트용(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)<br>
+- 엔터프라이즈 : <a href="https://enterprise.fosslight.org/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://enterprise.fosslight.org/swagger-ui/index.html?urls.primaryName=v2</a> (연동 서버 : <a href="http://enterprise.fosslight.org" target="_blank">http://enterprise.fosslight.org</a>)<br> 
  
 ### 0. Header  
 {: .specific-title }    
