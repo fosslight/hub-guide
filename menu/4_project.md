@@ -55,9 +55,12 @@ Project를 검색하고, 해당 Project의 전체적인 정보를 확인하고 F
 
 ### 6. Download
 {: .specific-title}  
-- (<img src="images/4_project_download_report_icon.PNG" width="20" height="25" />): Identification에서 입력한 목록을 **FOSSLight Report**로 다운로드할 수 있습니다.
-- (<img src="images/4_project_download_file_icon.PNG" width="20" height="25" />): Packaging에서 공개할 Source Code가 업로드된 경우 아이콘이 표시되며 **OSS Package 파일**을 다운로드할 수 있습니다.
-- (<img src="images/4_project_download_notice_icon.PNG" width="20" height="25" />): Packaging 단계가 완료된 경우 아이콘이 표시되며 **OSS Notice**를 다운로드할 수 있습니다.
+- (<img src="images/4_project_download_report_icon.PNG" width="20" height="25" />): Identification에서 입력한 목록을 **FOSSLight Report**로 다운로드할 수 있습니다.  
+- (<img src="images/4_project_download_review_report_icon.PNG" width="20" height="25" />): Identification의 SBOM 목록에서 Open Source , License, 보안 취약점 검토 결과 리스크와 주의사항이 있을 경우 이를 요약한 **Review Report**를 다운로드 할 수 있습니다.  
+- (<img src="images/4_project_download_notice_icon.PNG" width="20" height="25" />): Packaging 단계가 완료된 경우 아이콘이 표시되며 **OSS Notice**를 다운로드할 수 있습니다.  
+- (<img src="images/4_project_download_file_icon.PNG" width="20" height="25" />): Packaging에서 공개할 Source Code가 업로드된 경우 아이콘이 표시되며 **OSS Package 파일**을 다운로드할 수 있습니다.  
+
+
 
 
 ### 7. Security
