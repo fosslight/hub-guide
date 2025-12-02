@@ -290,7 +290,7 @@ License별로 고지 및 소스코드 공개 의무사항을 알 수 있습니�
 {: .left-bar-title }
 ### License 추가
 {: .specific-title} 
-![NEW_OSS](images/3_lic_add.PNG){: .styled-image width="80%"}
+![NEW_OSS](images/3_lic_add.PNG){: .styled-image width="829" height="1118"}
 1. License List에서 좌측 상단 Add 버튼을 클릭합니다.
 2. "New_License" 탭에서 신규 OSS의 정보를 입력합니다.
     - **License Name, Nick Name**은 중복될 수 없습니다. 
