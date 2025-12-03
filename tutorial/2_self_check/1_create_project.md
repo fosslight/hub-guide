@@ -38,7 +38,7 @@ Self-Check 프로젝트를 생성하고, 검토할 OSS 목록을 OSS 보고서�
 
 ### (Enterprise Only) FOSSLight Scanner Service 분석 결과 Load 
 {: .specific-title}
-**FOSSLight Hub의 Self-check와 [FOSSLight Scanner Service](http://fs.lge.com/)는 연동되어 있습니다.**
+**FOSSLight Hub의 Self-check와 [FOSSLight Scanner Service](http://fs.lge.com/)는 연동되어 있습니다.**    
 방법 1. URL을 선택하여 분석할 소스 링크 (wget 또는 git clone 하여 받을 수 있는 링크)를 입력하고 Send를 클릭합니다.
    ![selfcheck_add_oss_3](images/1_self_check_add_oss_url.png){: .styled-image}
 방법 2. [FOSSLight Scanner Service](http://fs.lge.com/)에 분석 완료한 Project의 결과 Report를 load합니다.
