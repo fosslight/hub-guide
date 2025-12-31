@@ -23,7 +23,7 @@
 
 ### FOSSLight Hub 고급 기능
 - [개발 환경 세팅](advanced/1_developer.md)
-- [REST API](advanced/2_rest_api.md)
+- [REST API](advanced/2_rest_api_2.md)
 - [Maintenance](advanced/3_maintenance.md)
 
 ### CONTRIBUTION

@@ -1,8 +1,8 @@
 # (Deprecated) REST API v1
-```note
-FOSSLight Hub의 기능을 REST API로 호출할 수 있습니다.  
-REST API V1은 25년 3월까지 지원됩니다. 4월부터는 REST API V2를 이용해 주시기 바랍니다.
-```
+<div class="note">
+FOSSLight Hub의 기능을 REST API로 호출할 수 있습니다.<br>
+REST API V1은 25년 3월까지 지원됩니다. 4월부터는 <a href="2_rest_api_2.html">REST API v2</a>를 이용해 주시기 바랍니다.
+</div>
 
 ## 시작하기
 ### TOKEN 발행
