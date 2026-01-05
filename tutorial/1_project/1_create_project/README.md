@@ -110,6 +110,7 @@ Project에 대한 기본 정보를 입력하는 페이지입니다.
                     <li><strong>Preceding</strong>: 배포 가능성이 있는 선행 개발</li>
                     <li><strong>In-house only</strong>: 사내용 Software로 배포가 예정되지 않은 경우</li>
                     <li><strong>Self-Check</strong>: 배포 목적이 아닌 내부 검토 및 사전 점검하는 경우</li>
+                    <li><strong>Contribution</strong>: Open Source 공개 및 기여시 선택</li>
                 </ul>
             </td>
         </tr>
