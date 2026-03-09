@@ -22,7 +22,7 @@
 {: .specific-title}
 - Dependency 분석 결과를 업로드합니다.  
 ![Dependency](./images/dependency.png)  
-   - [FOSSLight Dependency Scanner](https://fosslight.org/fosslight-guide/scanner/3_dependency.html)를 이용하면 "DEP" sheet를 자동으로 생성할 수 있습니다.  
+   - [FOSSLight Dependency Scanner](https://fosslight.org/fosslight-guide/scanner/1_dependency.html)를 이용하면 "DEP" sheet를 자동으로 생성할 수 있습니다.  
 
 
 ### SRC Sheet
@@ -36,14 +36,14 @@
 {: .specific-title}
 - Binary 별로 포함되는 Open Source 정보를 작성합니다.   
 ![bin](./images/bin.png)  
-   - [FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide/scanner/4_binary.html)를 이용하면 "BIN" sheet를 자동으로 생성할 수 있습니다.  
+   - [FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide/scanner/3_binary.html)를 이용하면 "BIN" sheet를 자동으로 생성할 수 있습니다.  
 
    
 ### BIN(Android) Sheet
 {: .specific-title}
 - Android Platform Project 및 Yocto Project의 Open Source 정보를 작성합니다.  
 ![bin_android](./images/bin_android.png) 
-   - [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/scanner/6_android.html) 및 [FOSSLight Yocto Scanner](https://fosslight.org/fosslight-guide/scanner/5_yocto.html)를 이용하면 "BIN(Android)" or "BIN(Yocto)" sheet를 자동으로 생성할 수 있습니다. 
+   - [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/android/) 및 [FOSSLight Yocto Scanner](https://fosslight.org/fosslight-guide/yocto/)를 이용하면 "BIN(Android)" or "BIN(Yocto)" sheet를 자동으로 생성할 수 있습니다. 
    - Android Platform 및 Yocto 기반 모델(Phone, TV 등)의 경우, DEP / SRC / BIN sheet를 작성하지 않아도 됩니다.  
 
 
@@ -213,7 +213,7 @@
 
 #### BIN(Android) sheet
 - **Source Path** : Binary의 Source Code 경로를 작성합니다. Source Path 확인이 어려운 경우에는, Comment란에 사유를 작성합니다.  
-- **NOTICE** : [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/scanner/6_android.html) 결과를 따르며, 임의로 수정하지 않습니다.  
+- **NOTICE** : [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/android/) 결과를 따르며, 임의로 수정하지 않습니다.  
 - 하나의 Binary에 여러 Open Source가 사용된 경우, Open Source 별로 별도의 행을 추가하여 작성합니다.   
 
 
