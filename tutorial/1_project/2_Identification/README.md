@@ -21,5 +21,5 @@ title: 2.Identification
 ## (Enterprise Only) Platform-generated Project의 Identification Process
 {: .left-bar-title }
 - BIN(Android), BIN(Yocto) Tab : 각 탭 작성 → Request 버튼을 클릭하여 리뷰 요청합니다.  
-        - BIN(Android) : [Android binary 분석](https://fosslight.org/fosslight-guide/scanner/6_android.html) 결과를 작성합니다.  
-        - BIN(Yocto) : [Yocto 분석](https://fosslight.org/fosslight-guide/scanner/5_yocto.html) 결과를 작성합니다.  
+        - BIN(Android) : [Android binary 분석](https://fosslight.org/fosslight-guide/android/) 결과를 작성합니다.  
+        - BIN(Yocto) : [Yocto 분석](https://fosslight.org/fosslight-guide/yocto/) 결과를 작성합니다.  
