@@ -17,7 +17,7 @@ published: true
 {: .left-bar-title }
 1. 기존에 Loaded된 Item이 있는 경우 Upload 영역의 + 버튼을 클릭합니다. (처음 Upload를 하는 경우는 2번 화면이 보이게 됩니다.)
 <img src="images/1_upload_report1.png" alt="select" class="styled-image">
-2. Upload할 Report 파일을 선택합니다.
+2. Upload Analysis Result를 선택 후, Upload버튼을 클릭하여 FOSSLight Report 파일을 업로드 합니다.
 <img src="images/1_upload_report2.png" alt="select" class="styled-image">
 3. 선택한 report 파일의 sheet list가 좌측에 보이고, 우측에는 upload할 tab을 선택할 수 있습니다.
 이때 하나의 sheet는 하나의 tab에만 선택이 가능하며, 각 탭의 이름으로 시작하는 sheet가 default로 선택되어 표시됩니다.
@@ -31,7 +31,7 @@ Status가 Confirm 상태인 Project/3rd Party를 Load합니다.
 
 1. 기존에 Loaded된 Item이 있는 경우 Upload 영역의 + 버튼을 클릭합니다. (처음 Load를 하는 경우는 2번 화면이 보이게 됩니다.)
 <img src="images/1_upload_report1.png" alt="select" class="styled-image">
-2. Load할 Project 또는 3rd Party를 검색합니다.
+2. Project/3rd party Name, Id으로 불러올 Project 또는 3rd Party를 검색합니다.
 <img src="images/1_project_search.png" alt="select" class="styled-image">
 <img src="images/1_3rd_search.png" alt="select" class="styled-image">
 3. Load할 탭을 선택합니다. 이때 선택한 탭은 동일한 이름의 탭에만 load 됩니다. (예 - SRC를 선택한 경우, SRC탭에만 load되고 다른 탭에는 로드되지 않습니다.)
