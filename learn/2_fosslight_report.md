@@ -17,28 +17,28 @@
 - 파악된 Open Source 정보는 FOSSLight Hub의 [3rd Party](../menu/5_third-party.md) 메뉴에 등록하며, 해당 정보는 Project > Identification > [3rd Party 탭](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md)에서 취합됩니다.     
 - FOSSLight Hub > Project > Identification에서 FOSSLight Report를 Export하면, [3rd Party 탭](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md)에 등록된 정보가 자동으로 "3rd party" sheet에 채워집니다. 따라서, "3rd party" sheet는 임의로 작성하지 않습니다.      
 ![3rd_Party](./images/3rd_party.png)  
+<br><br>
+
+>  [FOSSLight Scanner](https://fosslight.org/fosslight-guide/scanner/)를 이용하면 "DEP", "SRC", "BIN" sheet를 자동으로 생성할 수 있습니다.
 
 ### DEP Sheet
 {: .specific-title}
 - Dependency 분석 결과를 업로드합니다.  
-![Dependency](./images/dependency.png)  
-   - [FOSSLight Dependency Scanner](https://fosslight.org/fosslight-guide/scanner/1_dependency.html)를 이용하면 "DEP" sheet를 자동으로 생성할 수 있습니다.  
-
+![Dependency](./images/dependency.png)    
+   
 
 ### SRC Sheet
 {: .specific-title}
 - Source Code 별로 포함되는 Open Source 정보를 작성합니다.   
 ![src](./images/src.png)  
-   - [FOSSLight Source Scanner](https://fosslight.org/fosslight-guide/scanner/2_source.html)를 이용하면 "SRC" sheet를 자동으로 생성할 수 있습니다.  
-
+   
 
 ### BIN Sheet
 {: .specific-title}
 - Binary 별로 포함되는 Open Source 정보를 작성합니다.   
-![bin](./images/bin.png)  
-   - [FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide/scanner/3_binary.html)를 이용하면 "BIN" sheet를 자동으로 생성할 수 있습니다.  
-
-   
+![bin](./images/bin.png)   
+<br><br>
+    
 ### BIN(Android) Sheet
 {: .specific-title}
 - Android Platform Project 및 Yocto Project의 Open Source 정보를 작성합니다.  
