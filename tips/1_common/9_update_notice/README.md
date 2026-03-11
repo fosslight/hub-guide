@@ -3,7 +3,7 @@ sort: 9
 published: true
 ---
 
-# 업데이트 알림 메일
+# 업데이트 요청 메일
 
 ## 메일 발송 대상
 {: .left-bar-title }
