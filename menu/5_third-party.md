@@ -49,7 +49,7 @@ published: true
 
 3. 수정된 내용이 있다면 Save 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 한 번 더 클릭합니다.
 
-4. BOM 탭의 우측 상단에 Save 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 클릭하여 저장한 후 **Request** 버튼을 클릭하여 리뷰를 요청합니다.
+4. SBOM 탭의 우측 상단에 Save 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 클릭하여 저장한 후 **Request** 버튼을 클릭하여 리뷰를 요청합니다.
     ![3rd_party_save](images/5_third_party_save_3_request.PNG)
 
     
