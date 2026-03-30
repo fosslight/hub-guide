@@ -6,7 +6,7 @@ title: 5.Security Tab
 
 # Security Tab
 <div class="note">
-Security 탭에서는 Identification 단계의 BOM 탭 기준 Vulnerability score가 기준 점수 이상인 OSS에 대하여 CVE ID별로 확인 및 조치 상태를 관리할 수 있습니다. <br>
+Security 탭에서는 Identification 단계의 SBOM 탭 기준 Vulnerability score가 기준 점수 이상인 OSS에 대하여 CVE ID별로 확인 및 조치 상태를 관리할 수 있습니다. <br>
     •  Vulnerability score 기준 점수는 Code Management > 760 (Security Vulnerability Score)에서 설정하실 수 있습니다.   
 </div>
 
@@ -15,7 +15,7 @@ Security 탭에서는 Identification 단계의 BOM 탭 기준 Vulnerability scor
 ## Column 정보
 {: .left-bar-title }
 - **OSS Name, OSS version**
-    - Identification 단계의 BOM 탭에 작성된 OSS 정보가 자동 출력됩니다.
+    - Identification 단계의 SBOM 탭에 작성된 OSS 정보가 자동 출력됩니다.
 - **CVE ID, CVSS Score, Published Date**
     - CVE ID 및 해당 CVE ID의 CVSS Score, 발행일 정보가 자동 출력됩니다. 
 - **Vulnerability Resolution**
@@ -24,7 +24,7 @@ Security 탭에서는 Identification 단계의 BOM 탭 기준 Vulnerability scor
 ### OSS version 미 입력시
 {: .specific-title}
 - Security 탭에서는 OSS version 미기입된 CVE ID에 대해 정확한 vulnerability 확인이 어렵기에 전체 CVE ID 리스트를 보여주고 있지 않습니다.
-- 탭 진입 시 다음 팝업 화면이 뜨는 경우, Identification 탭에서 해당 Open Source의 정확한 version을 입력한 후 BOM 탭 Save하면 
+- 탭 진입 시 다음 팝업 화면이 뜨는 경우, Identification 탭에서 해당 Open Source의 정확한 version을 입력한 후 SBOM 탭 Save하면 
 Security 탭에서 정확한 보안취약점 CVE ID 목록을 확인할 수 있습니다.  
 ![prj](images/5_sec_popup.PNG){: .styled-image}  
 
