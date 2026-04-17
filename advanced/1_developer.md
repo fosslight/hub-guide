@@ -48,14 +48,14 @@ mysql -u root -p < fosslight_create.sql
 mysql -u root -p <DATABASE_NAME> < fosslight_create.sql
 ```
 접속 계정이 이미 존재하거나, 다른 계정을 사용하는 경우 CREATE USER 및 GRANT 부분을 삭제(또는 변경) 합니다.
-5. 시스템에 tree package를 설치합니다. :
+5. 시스템에 필요한 package를 설치합니다. :
 - Ubuntu
 ```
-sudo apt-get install tree
+sudo apt-get install tree fontconfig fonts-dejavu
 ```
 - MacOS
 ```
-brew install tree
+brew install tree fontconfig fonts-dejavu
 ```
 
 
