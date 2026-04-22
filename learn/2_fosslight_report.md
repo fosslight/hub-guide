@@ -14,8 +14,8 @@
 ### 3rd Party Sheet  
 {: .specific-title}   
 - 배포하는 Project에 3rd Party로부터 제공받은 Software가 포함되어 있는 경우, 해당 3rd party로부터 OSS Checklist를 입수하여 사용된 Open Source 현황을 파악해야 합니다.  
-- 파악된 Open Source 정보는 FOSSLight Hub의 [3rd Party](../menu/5_third-party.md) 메뉴에 등록하며, 해당 정보는 Project > Identification > [3rd Party 탭](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md)에서 취합됩니다.     
-- FOSSLight Hub > Project > Identification에서 FOSSLight Report를 Export하면, [3rd Party 탭](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md)에 등록된 정보가 자동으로 "3rd party" sheet에 채워집니다. 따라서, "3rd party" sheet는 임의로 작성하지 않습니다.      
+- 파악된 Open Source 정보는 FOSSLight Hub의 [3rd Party](../menu/5_third-party.md) 메뉴에 등록하며, 해당 정보는 Project > Identification > [3rd Party 탭](../tutorial/1_project/2_Identification/1_3rd_DEP_SRC_BIN_Tab.md)에서 취합됩니다.     
+- FOSSLight Hub > Project > Identification에서 FOSSLight Report를 Export하면, [3rd Party 탭](../tutorial/1_project/2_Identification/1_3rd_DEP_SRC_BIN_Tab.md)에 등록된 정보가 자동으로 "3rd party" sheet에 채워집니다. 따라서, "3rd party" sheet는 임의로 작성하지 않습니다.      
 ![3rd_Party](./images/3rd_party.png)  
 <br><br>
 

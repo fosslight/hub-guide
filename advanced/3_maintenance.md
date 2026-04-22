@@ -1,24 +1,32 @@
 # Maintenance
-```note
 FOSSLight Hub를 운영하는 데 유용한 가이드입니다.
-```
-## DB 백업 및 복구하기
-### 1. 백업
-#### 선택1. 전체 백업    
+
+## DB 백업 및 복구하기  
+{: .left-bar-title}
+
+### 1. 백업  
+{: .specific-title}
+FOSSLight 업그레이드 또는 장애 대비를 위해 데이터베이스 백업을 수행합니다.
+
+#### 선택1. 전체 백업 
+{: .under-bar-title} 
+
 mysqldump -u[아이디] -p[패스워드] [데이터베이스명] > [백업파일명].sql
 ```
 $ mysqldump -ufosslight -pfosslight fosslight > fosslight_backup.sql
 ```
 
 #### 선택2. FOSSLight 최신 버전으로 업데이트를 위한 DB 백업 (Data만 추출)
+{: .under-bar-title}  
 mysqldump -u[아이디] -p[패스워드] [데이터베이스명] --no-create-info > [백업파일명].sql
 ```
 $ mysqldump -ufosslight -pfosslight fosslight --no-create-info > fosslight_backup.sql
 ```
 
 ### 2. 복구
+{: .specific-title} 
 1. 버전에 따른 Table 구조를 반영하기 위해 빈 DB를 새로 만들고 기본 값을 설정합니다. 
-[Developer Documentation - 다운로드 & 설치 - 4. Database 생성 및 Data 초기 등록](https://fosslight.org/hub-guide/features/1_developer.html#다운로드--설치)
+[Developer Documentation - 다운로드 & 설치 - 4. Database 생성 및 Data 초기 등록](../advanced/1_developer.md)
 
 2. 백업한 파일로 복구합니다.
 mysql -u[아이디] -p[패스워드] [데이터베이스명] < [백업파일명].sql
@@ -27,11 +35,13 @@ $ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
 ```
 
 ### 추천 DBMS
+{: .specific-title} 
 - [DBeaver Community edition](https://dbeaver.io/download/) 
 - [MySQL workbench Community edition](https://dev.mysql.com/downloads/workbench/)
 - [HeidiSQL](https://www.heidisql.com/download.php)
 
 ## DB 버전 업그레이드하기
+{: .left-bar-title}
 [MyBatis Migrations](https://mybatis.org/migrations/migrate.html)를 이용하여 DB 버전을 업그레이드하는 방법 (v1.5.0부터 migration하는 script를 제공합니다.)
 
 1. migration/migration/environments/development.properties 파일에 DB 접속 정보를 수정합니다. 
@@ -137,6 +147,7 @@ $ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
 ✏️참고. 자세한 command는 [MyBatis Migrations](https://mybatis.org/migrations/migrate.html)를 참조하세요.
 
 ## NVD Data를 2002년 Data부터 다운로드 받기
+{: .left-bar-title}
 FOSSLight Hub는 일 1회 NVD(NATIONAL VULNERABILITY DATABASE) 에서 제공되는 [NVD Data Feeds](https://nvd.nist.gov/vuln/data-feeds)를 다운로드하여 Database에 저장하며 저장된 NVD Data는 [Vulnerability List](../menu/7_vulnerability.md)에서 조회할 수 있습니다.      
 이 때, 2002년 Data부터 NVD Data를 다운로드 받을 경우 하기와 같이 세팅합니다.     
 (최초 1회만 세팅하면 이후 Data는 누적되므로 추가적으로 세팅할 필요가 없습니다.)   

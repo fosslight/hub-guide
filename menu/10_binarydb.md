@@ -10,7 +10,7 @@ published: true
 {: .left-bar-title }  
 - **Binary 분석 결과(FOSSLight Report)**를 Upload한 후 Save 버튼을 클릭하면, Binary DB와 비교하여 동일하거나 유사한 Binary의 OSS Name, OSS Version, License 등의 정보를 자동으로 채워줍니다.  
     - 적용 메뉴 
-        - **Project > Identification > [BIN](https://fosslight.org/hub-guide/tutorial/1_project/2_Identification/4_BIN_Tab.html), BIN(Android\|Yocto) tab** 
+        - **Project > Identification > [BIN](../tutorial/1_project/2_Identification/1_3rd_DEP_SRC_BIN_Tab.md), BIN(Android\|Yocto) tab** 
         - **3rd Party > Identification > 3rd party tab**
     - Binary DB 축적을 위하여 [FOSSLight Binary Scanner v4.1.30](https://github.com/fosslight/fosslight_binary_scanner/) 이후 버전 사용을 권장합니다.   
     ![binarytxt](images/11_upload_binary_txt.PNG){: .styled-image}<br>  
