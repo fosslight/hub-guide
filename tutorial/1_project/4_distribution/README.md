@@ -4,7 +4,7 @@ published: true
 title: 4.Distribution
 ---
 
-# Distribution(Enterprise Only)
+# (LGE Only)Distribution
 <div class="note">
 Distribution을 수행하면 배포 사이트에 OSS 고지문 / OSS Package가 등록됩니다.
 </div> 

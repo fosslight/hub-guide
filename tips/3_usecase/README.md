@@ -114,7 +114,7 @@ Network Service를 통해 외부 디바이스, 애플리케이션, 또는 사용
 
 <br><br><br>
 
-## (Enterprise Only) Android & Yocto 플랫폼 프로젝트  
+## (LGE Only) Android & Yocto 플랫폼 프로젝트  
 {: .left-bar-title }  
 플랫폼에서 자체적으로 고지문을 생성하는 경우, 플랫폼 고지문을 리뷰하기 위한 프로젝트를 생성해야 합니다.
 - Fosslight Hub 지원 플랫폼 : Android, Yocto  

@@ -18,7 +18,7 @@ title: 2.Identification
         - [**3rd Party, DEP, SRC, BIN**](https://fosslight.org/hub-guide/tutorial/1_project/2_Identification/1_3rd_DEP_SRC_BIN_Tab.html): 분석 결과 Report를 업로드 하거나 Confirm된 Project, 3rd Party를 Load합니다.  
         - [**SBOM**](https://fosslight.org/hub-guide/tutorial/1_project/2_Identification/2_SBOM_Tab.html): 다른 탭에 작성된 OSS List를 취합하고 Warning message를 검토한 후 리뷰 요청을 합니다.  
 
-## (Enterprise Only) Platform-generated Project의 Identification Process
+## (LGE Only) Platform-generated Project의 Identification Process
 {: .left-bar-title }
 - BIN(Android), BIN(Yocto) Tab : 각 탭 작성 → Request 버튼을 클릭하여 리뷰 요청합니다.  
         - BIN(Android) : [Android binary 분석](https://fosslight.org/fosslight-guide/android/) 결과를 작성합니다.  
