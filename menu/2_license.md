@@ -180,7 +180,7 @@ Restriction 내용은 [OSORI](https://osori-db.github.io/docs/guide/) 프로젝�
                     </li>
                 </ul>
             </td>
-            <td>5</td>
+            <td>2</td>
             <td>🟡</td>
         </tr>
         <tr>
