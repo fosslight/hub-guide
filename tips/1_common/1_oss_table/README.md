@@ -45,7 +45,12 @@ published: true
     - SBOM Tab : FOSSLight Report 및 SBOM 표준의 여러 가지 형식으로 다운로드 가능합니다.  
     ![ExportListBOM](../../images/common/oss_table_buttons/export_popup_2.png){: .styled-image}    
     - SBOM 이외의 Tab : FOSSLight Report 다운로드 가능합니다.  
-    ![ExportListOthers](../../images/common/oss_table_buttons/export_popup_1.png){: .styled-image}<br><br><br><br>  
+    ![ExportListOthers](../../images/common/oss_table_buttons/export_popup_1.png){: .styled-image}
+
+**Dependency tree (DEP탭 한정)**
+- <img src="../../images/common/oss_table_buttons/dependency_tree.png" width="12" height="16" /> 버튼을 클릭하여, Dependency Tree 구조를 txt 파일로 Export 합니다.
+    - 해당 기능은 FOSSLight Dependency Scanner를 통해 Depends On 컬럼 정보가 채워져있는 경우에만 출력 가능합니다.
+    ![DependencyTree](../../images/common/oss_table_buttons/dependency_tree_txt.png){: .styled-image}<br><br><br><br> 
 
 ## OSS Table Cell 수정
 {: .left-bar-title }
