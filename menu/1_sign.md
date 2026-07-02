@@ -4,7 +4,7 @@ published: true
 ---
 # Sign In & Sign Up
 FOSSLight Hub 로그인 및 계정 등록 방법을 설명합니다.
-- FOSSLight(LGE Only) : http://osc.lge.com
+- FOSSLight(LGE Only) : https://osc.lge.com
 - FOSSLight Enterprise : https://enterprise.fosslight.org
     - Enterprise는 별도 계정 발급 후 이용 가능하며, 문의는 info@fosslight.org로 해주시기 바랍니다.
 <br><br>
