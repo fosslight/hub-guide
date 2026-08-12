@@ -495,6 +495,17 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
     </thead>
     <tbody>
         <tr style="background-color: white;">
+          <td><span class="highlight">GET /api/v2/discovered-cves</span></td>
+          <td style="text-align: center;"><span class="highlight">JSON</span></td>
+          <td>
+            발송된 취약점 메일 기준으로 CVE ID 목록을 조회합니다.<br><br>
+            <ul class="description-list">
+              <li><strong class="highlight-black"><span style="color: red;">(required)</span> sendDate</strong>: 조회 기준일 (YYYY-MM-DD)</li>
+              <li><strong class="highlight-black">isAfterDate</strong>: true면 기준일 이후(포함) 조회, false면 기준일만 조회 (default = false)</li>
+            </ul>
+          </td>
+        </tr>
+        <tr style="background-color: white;">
             <td><span class="highlight">GET /api/v2/max-vulnerabilities</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
