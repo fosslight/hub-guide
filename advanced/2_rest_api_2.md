@@ -389,6 +389,21 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
           </td>
         </tr>
         <tr style="background-color: white;">
+              <td><span class="highlight">POST /api/v2/projects/{id}/reports</span></td>
+              <td style="text-align: center;"><span class="highlight">JSON</span></td>
+              <td>
+                단일 엑셀 파일에서 여러 시트를 읽어 dep/src/bin 탭의 OSS 컴포넌트를 한번에 등록합니다 (Multi-sheet)<br><br>
+                <ul class="description-list">
+                  <li><strong class="highlight-black"><span style="color: red;">(required)</span> ossReport</strong>: 업로드할 엑셀 파일 (최대 15MB)</li>
+                  <li><strong class="highlight-black"><span style="color: red;">(required)</span> tabSheetMapping</strong>: 탭과 시트명 매핑 JSON <br>
+                    - 예시: <code>{"src":["SRC_FL_Source"],"dep":["DEP_FL_Dependency"],"bin":["BIN_FL_Binary"]}</code>
+                  </li>
+                  <li><strong class="highlight-black">comment</strong>: 업로드 시 추가 설명</li>
+                  <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Report 파일을 업로드할 Project ID</li>
+                </ul>
+              </td>
+            </tr>
+        <tr style="background-color: white;">
             <td><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
