@@ -66,5 +66,13 @@ Project를 검색하고, 해당 Project의 전체적인 정보를 확인하고 F
 ### 7. Security
 {: .specific-title}  
 Project의 Identification에 포함된 전체 Open Source List의(Exclude 제외) Vulnerability 정보에 대해 나타냅니다.
-- (<img src="images/4_project_security_need_to_resolve.PNG" width="120" height="25" />) : Vulnerability score가 기준 점수 이상인 경우 
-- (<img src="images/4_project_security_na.PNG" width="120" height="25" />) : Vulnerability score가 기준 점수 미만인 경우 
+
+- **Security탭 진입 방법**
+  - Project List에서 각 프로젝트의  Security 컬럼 내 버튼을 클릭하여 Security 탭으로 진입할 수 있습니다.
+    ![security tab](images/4_project_security_list.png){: .styled-image}  
+
+- **Status**
+  - (<img src="images/4_project_security_need_to_resolve.PNG" width="120" height="25" />) : Identification 단계의 SBOM 탭 기준, Vulnerability score가 기준 점수 이상인 보안취약점이 존재하는 경우 (괄호 안 숫자는 프로젝트의 vulnerability max score)
+  - (<img src="images/4_project_security_discovered.png" width="118" height="25" />) : Identification단계의 SBOM 탭 기준 Vulnerability score가 기준 점수 이상인 보안취약점이 존재하지 않는 경우 (괄호 안 숫자는 프로젝트의 vulnerability max score ) 
+  - (<img src="images/4_project_security_na.PNG" width="115" height="25" />) : SBOM탭이 Save되지 않아 OSS 목록이 취합되지 않았거나, 보안취약점이 발견되지 않은 경우
+  - (<img src="images/4_project_security_resolved.png" width="100" height="25" />) : Need to resolve탭 기준 Vulnerability score가 기준 점수 이상인 보안취약점이 모두 'Fixed' resolution인 경우 (괄호 안 숫자는 프로젝트의 vulnerability score 기준 점수 미만 vulnerability max score)
