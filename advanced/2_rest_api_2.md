@@ -346,7 +346,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight">POST /api/v2/projects/{id}/platform/reports</span></td>
+            <td><span class="highlight"><span style="color: red;">(LGE only)</span>POST /api/v2/projects/{id}/platform/reports</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Android/Yocto(Platform-generate) Project에 Report 파일 업로드<br><br>
@@ -363,7 +363,7 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight">POST /api/v2/projects/{id}/platform/reset</span></td>
+            <td><span class="highlight"><span style="color: red;">(LGE only)</span>POST /api/v2/projects/{id}/platform/reset</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Android/Yocto(Platform-generate) Project의 Identification 정보를 reset합니다.<br><br>
