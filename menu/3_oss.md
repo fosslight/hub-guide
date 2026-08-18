@@ -77,17 +77,16 @@ published: true
 
 ### Vulnerability
 {: .specific-title} 
-- NIST에서 제공하는 NVD DB에서 해당 OSS가 검색되면 취약 정도 (CVE Score)에 따라 Vulnerability 아이콘 색깔로 구분되어 표시됩니다.
+- NVD 또는 OSV에서 제공하는 보안취약점이 해당 OSS에서 검색되면 취약 정도에 따라 Vulnerability 아이콘 색깔로 구분되어 표시됩니다.
 
-## OSS 상세정보 
+## OSS 상세정보 > Compliance 
 {: .left-bar-title }
-OSS List에서 OSS Name을 클릭합니다.  
-![OssList](images/2_oss_user_detail.png)  
-
+OSS List에서 OSS Name을 클릭하면 첫번째 Compliance탭에서 OSS 정보를 확인할 수 있습니다.
+![OssList](images/2_oss_user_detail_compliance.png)  
 
 ### Vulnerability Info
 {: .specific-title} 
-1. OSS Version Alias : CVE-ID 매핑시, 추가로 매핑된 버전 정보
+1. OSS Version Alias : Vulnerability ID 매핑시, 추가로 매핑된 버전 정보
 2. Include CPE : CVE-ID 매핑시 매핑된 cpe 정보
 3. Exclude CPE : CVE-ID 매핑시 제외된 cpe 정보
 
@@ -116,6 +115,61 @@ OSS List에서 OSS Name을 클릭합니다.
 ### Attribution 
 {: .specific-title}
 - OSS Notice 발행시 별도로 포함되는 문구를 확인할 수 있습니다. 
+
+
+## OSS 상세정보 > Vulnerability
+{: .left-bar-title }
+OSS List에서 OSS Name을 클릭하면 두번째 Vulnerability 탭에서 취약점 정보를 확인할 수 있습니다.
+![OssList](images/2_oss_user_detail_vuln.png)  
+
+- 취약점 Score 구간별로 해당하는 Vulnerability ID 수를 확인할 수 있으며, 취약점 Score 아이콘을 클릭하면 해당 구간의 Vulnerability ID 목록을 확인할 수 있습니다.
+- 취약점 Score 구간별 아이콘은 다음과 같습니다. 이때 `?`는 해당 Score가 CVSS Score에 해당하지 않아 어떤 구간에도 포함되지 않는 경우를 의미합니다.
+<div style="margin-left: 50px;">
+  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Severity</th>
+        <th>CVSS Score Range</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="color:black; font-weight: bold;">
+          <img src="images/7_vul_critical.png" alt="CriticalIcon"
+               style="vertical-align:middle; width:16px; height:16px; margin:0 10px 0 10px;">
+          Critical
+        </td>
+        <td style="padding-left: 20px;">9.0 ~ 10.0</td>
+      </tr>
+      <tr>
+        <td style="color:red; font-weight: bold;">
+          <img src="images/7_vul_high.png" alt="HighIcon"
+               style="vertical-align:middle; width:16px; height:16px; margin:0 10px 0 10px;">
+          High
+        </td>
+        <td style="padding-left: 20px;">7.0 ~ 8.9</td>
+      </tr>
+      <tr>
+        <td style="color:orange; font-weight: bold;">
+          <img src="images/7_vul_medium.png" alt="MediumIcon"
+               style="vertical-align:middle; width:16px; height:16px; margin:0 10px 0 10px;">
+          Medium
+        </td>
+        <td style="padding-left: 20px;">4.0 ~ 6.9</td>
+      </tr>
+      <tr>
+        <td style="color:gold; font-weight: bold;">
+          <img src="images/7_vul_low.png" alt="LowIcon"
+               style="vertical-align:middle; width:16px; height:16px; margin:0 10px 0 10px;">
+          Low
+        </td>
+        <td style="padding-left: 20px;">0.1 ~ 3.9</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+- Vulnerability 테이블의 Alias ID를 통해 동일한 취약점에 대해 다른 데이터베이스에서 발급된 Vulnerability ID를 확인할 수 있습니다.
+
 
 
 ## (Admin Only) OSS 추가, 수정, 복사, 삭제, 일괄 변경
@@ -157,14 +211,14 @@ Admin 인 경우에만 Editable하게 표시되며 Share, Sync, Copy, Delete, Sa
 1. Comment란에 삭제 사유를 기입합니다.
 2. 우측 상단의 **Delete** 버튼을 클릭합니다.
     - 📢 해당 OSS가 Identification 단계가 Confirm된 Project에 포함된 경우, Delete 버튼 클릭 시 다른 OSS로 Merge 하는 창이 팝업됩니다.   
-    ![NEW_OSS](images/2_oss_rename.PNG)
+    ![NEW_OSS](images/2_oss_rename.png)
         - Merge할 OSS를 선택하면, 삭제하는 OSS의 Name과 NickName은 Merge하는 OSS의 Nickname으로 이동됩니다.
 
 
 ### OSS 버전별 정보 일괄 변경 기능
 {: .specific-title}
 - OSS에 여러 버전이 등록된 경우, 각 버전별 정보를 일괄 업데이트시 사용합니다. 우측 상단의 **Sync** 버튼을 클릭합니다.
-![OSS_SYNC](images/2_oss_sync.PNG)  
+![OSS_SYNC](images/2_oss_sync.png)  
     1. 수정할 OSS 버전을 선택합니다. 
         - 이미 동일한 OSS 정보를 가진 버전의 경우, 회색으로 표시되며 선택 불가합니다.
     2. 수정할 OSS의 정보를 선택합니다. 
