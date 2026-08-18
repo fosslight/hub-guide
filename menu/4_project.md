@@ -65,7 +65,8 @@ Project를 검색하고, 해당 Project의 전체적인 정보를 확인하고 F
 
 ### 7. Security
 {: .specific-title}  
-Project의 Identification에 포함된 전체 Open Source List의(Exclude 제외) Vulnerability 정보에 대해 나타냅니다.
+Project의 Identification에 포함된 전체 Open Source List의(Exclude 제외) Vulnerability 정보에 대해 나타냅니다.<br>
+<small>참고: Security에 대한 자세한 내용은 [Security tutorial](../tutorial/1_project/5_security/README.md)에서 확인할 수 있습니다.</small>
 
 - **Security탭 진입 방법**
   - Project List에서 각 프로젝트의  Security 컬럼 내 버튼을 클릭하여 Security 탭으로 진입할 수 있습니다.
