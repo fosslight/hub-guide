@@ -14,7 +14,7 @@ Security 탭에서는 Identification 단계의 SBOM 탭 기준 Vulnerability sco
 {: .left-bar-title }
 Security탭 진입 시 처음 뜨는 탭으로, Identification 단계의 SBOM 탭 기준 취합된 OSS에 대해 검출된 vulnerability의 통계 및 차트를 확인할 수 있습니다.
 ![prj](images/5_sec_overview.png){: .styled-image}  
-- Security 탭에서는 <span style="color:red">OSS version이 입력되지 않은 OSS의 경우, 정확한 취약점 확인이 어려우므로 해당 OSS에 대해 취약점 목록을 보여주지 않습니다</span>. 
+- Security 탭에서는 <span style="color:red">OSS 버전이 입력되지 않은 OSS는 정확한 취약점 확인이 어려우므로 Vulnerability ID별 취약점 목록을 표시하지 않습니다. </span>단, **Need to resolve** 및 **Full discovered** 탭에서는 해당 OSS의 **OSS Name**과 FOSSLight에서 Vulnerability 목록을 확인할 수 있는 **Vulnerability Link**를 제공합니다.
   - Overview탭 상단에서 OSS version 입력되지 않은 OSS 목록을 확인 후, Identification 탭에서 OSS Version을 입력하고 SBOM 탭에서 Save를 수행하면 Security 탭에서 입력된 OSS version에 대한 vulnerability 확인할 수 있습니다.
 
 ### Vulnerability Score
