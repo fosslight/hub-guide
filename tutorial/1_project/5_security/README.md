@@ -75,11 +75,11 @@ Bulk Edit 기능을 통해 여러 Row를 한 번에 수정할 수 있습니다.
    ![bulkedit](images/5_sec_bulkedit.png){: .styled-image} 
 2. 변경할 Attributes을 선택하고 Contents를 변경한 뒤 Change 버튼을 클릭합니다.
    - Security Patch Link for Internal은 Vulnerability Resolution이 'Fixed'일 경우에만 작성할 수 있습니다.
-    ![bulkedit](images/5_sec_bulkedit_detail.png){: width="600px" height="70px" .styled-image } 
+     ![bulkedit](images/5_sec_bulkedit_detail.png){: .styled-image } 
 
 ### Excel 파일을 통한 Upload 기능
 {: .specific-title}
-![fixed](images/5_sec_excel_upload.png){: width="800px" height="70px" .styled-image } 
+![fixed](images/5_sec_excel_upload.png){: .styled-image } 
 - <span style="color:red">Need to resolve탭에서 Export한 결과 파일을 수정한 후 Upload하여 사용하는 것을 권장합니다.</span>
 - 업로드된 Excel 파일 내 OSS Name, OSS Version, Vulnerability ID 값이 동일한 row가 Security 탭에 존재할 경우, 해당 row에 업로드된 Vulnerability Resolution, Security Patch Link for Internal, Security Comments 값이 반영됩니다. 
 - Vulnerability Resolution이 Fixed가 아닌 경우, Security Patch Link for Internal 값은 항상 N/A로 설정됩니다. 
