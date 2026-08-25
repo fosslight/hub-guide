@@ -730,6 +730,114 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
 </table>
 <br><br><br>
 
-## 오류코드
+## HTTP Status Code
 {: .left-bar-title }  
-Error 발생 시 HTTP Response Code가 2xx 이외의 값이 리턴 됩니다.
+API 호출 결과에 따라 반환되는 HTTP 상태 코드와 대표 오류 메시지는 다음과 같습니다.
+동일한 상태 코드라도 오류 원인에 따라 메시지가 다를 수 있으며, 성공 시에는 API별 응답 데이터를 반환합니다.
+
+<table>
+  <thead>
+    <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+      <th scope="col" style="width: 150px; text-align: center; padding: 5px;">HTTP Status Code</th>
+      <th scope="col" style="width: 300px; padding: 5px;">Description</th>
+      <th scope="col" style="width: 600px; padding: 5px;">Error Message</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>200</code></td>
+      <td>OK (성공)</td>
+      <td>-</td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>400</code></td>
+      <td>Bad Request - 파라미터 오류</td>
+      <td><code>The parameter is invalid.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>400</code></td>
+      <td>Bad Request - 필수 파라미터 누락</td>
+      <td><code>'&lt;paramName&gt;' parameter is missing or misspelled</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>400</code></td>
+      <td>Bad Request - Multipart 파일 파라미터 누락</td>
+      <td><code>A 'file' parameter is mandatory, though its name may differ depending on the API.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>400</code></td>
+      <td>Bad Request - Bean Validation 실패</td>
+      <td><code>&lt;field error message&gt;</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>400</code></td>
+      <td>Bad Request - 제약 조건 위반 (<code>@ValuesAllowed</code>)</td>
+      <td><code>&lt;violation message&gt;</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>401</code></td>
+      <td>Unauthorized - 사용자 없음</td>
+      <td><code>User does not exist.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>401</code></td>
+      <td>Unauthorized - TOKEN 오류</td>
+      <td><code>There is an error in the TOKEN value.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>403</code></td>
+      <td>Forbidden - 권한 없음</td>
+      <td><code>You do not have permission.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>403</code></td>
+      <td>Forbidden - 프로젝트 접근 권한 없음 (VIEW)</td>
+      <td><code>The user does not have view permissions for Project &lt;prjId&gt;</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>403</code></td>
+      <td>Forbidden - 프로젝트 접근 권한 없음 (EDIT)</td>
+      <td><code>The user does not have edit permissions for Project &lt;prjId&gt;</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>404</code></td>
+      <td>Not Found - 리소스 없음</td>
+      <td><code>The resource does not exist or User does not have permissions for the resource (resource example: project)</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>404</code></td>
+      <td>Not Found - 프로젝트 없음</td>
+      <td><code>Project not found.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>413</code></td>
+      <td>Payload Too Large - 파일 크기 초과</td>
+      <td><code>File size exceeded. (Max size: 5MB for oss report, 4GB for packaging file)</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>422</code></td>
+      <td>Unprocessable Entity - 프로젝트 타입 오류</td>
+      <td><code>Project Type is invalid. &lt;message&gt;</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>422</code></td>
+      <td>Unprocessable Entity - 데이터 검증 오류</td>
+      <td><code>There is an error in the data written in the file.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>422</code></td>
+      <td>Unprocessable Entity - Supplement Notice 생성 실패</td>
+      <td><code>Failed to generate supplement notice file. Please verify that the project contains valid binary components.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>500</code></td>
+      <td>Internal Server Error - 알 수 없는 오류</td>
+      <td><code>Unknown error.</code></td>
+    </tr>
+    <tr style="background-color: white;">
+      <td style="text-align: center;"><code>500</code></td>
+      <td>Internal Server Error - 파일 ID 생성 실패</td>
+      <td><code>Failed to generate new file ID</code></td>
+    </tr>
+  </tbody>
+</table>
