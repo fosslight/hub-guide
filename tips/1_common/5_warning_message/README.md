@@ -47,7 +47,7 @@ OSS Table에서 Warning Message를 통해 검토가 필요한 사항을 확인�
           <td>
             <ul>
               <li>OSS List에서 비슷한 이름을 가진 OSS 중 동일한 것이 있을 경우, FOSSLight Hub에 등록된 OSS Name으로 변경합니다.</li>
-              <li>동일한 OSS가 없을 경우, 수정할 필요 없습니다.이 경우 <strong>Download location, Homepage column</strong>을 필수로 기입하시기 바랍니다.</li>
+              <li>동일한 OSS가 없을 경우, 수정할 필요 없습니다.이 경우 <strong>Download location</strong>을 필수로 기입하시기 바랍니다.</li>
             </ul>
           </td>
         </tr>
