@@ -81,12 +81,13 @@ OSS Table에서 Warning Message를 통해 검토가 필요한 사항을 확인�
         </td>
         <td>
             <ul>
-            <li>Download location에서 해당 Source Code 다운로드 가능한지 확인합니다.</li>
+            <li><strong>Download location</strong>을 반드시 입력합니다.</li>
+            <li><strong>Version</strong>은 commit hash가 아닌 공식 release 버전으로 입력합니다. Semver형식(예: v3.2.1 → 3.2.1)에 맞춰 입력해 주시고, Git 기반의 경우는 공식 태그가 있다면, 해당 버전을 사용하시길 권장합니다.</li>
             <li>
-                다음과 같은 경우 version을 공란으로 표기합니다.
+              다음과 같은 경우에는 <strong>Version</strong>을 공란으로 입력합니다.
                 <ul>
-                <li>official하게 배포된 version이 아닌 경우 (ex- unspecified)</li>
-                <li>version이 별도로 관리되지 않는 OSS의 경우</li>
+              <li>공식적으로 배포된 release 버전이 아닌 경우 (예: unspecified)</li>
+              <li>OSS에서 버전을 별도로 관리하지 않는 경우</li>
                 </ul>
             </li>
             </ul>
