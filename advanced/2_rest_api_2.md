@@ -434,6 +434,8 @@ Swagger UI 사용 시 Token 입력은 인증을 편리하게 하기 위해 제�
                 Project에서 검출된 보안취약점 정보를 JSON 형태로 받음<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 대상 project ID</li>
+                    <li><strong class="highlight-black">tabName</strong>: 대상 tab 이름. 기본 값은 all
+                                                                          (all/ fullDiscovered/ needToResolve)</li>
                 </ul>
             </td>
         </tr>
